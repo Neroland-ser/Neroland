@@ -1,0 +1,17 @@
+
+[Meteorites]
+	#this value multiplies the default chance of a meteorite spawning (Default: 1)
+	"Spawn Chance Multiplier" = 1.0
+	#this value multiplies the default impact strength of meteorites (Default: 1)
+	"Impact Strength Multiplier" = 1.0
+	#this value multiplies the default falling speed of meteorites (Default: 1)
+	"Falling Speed Multiplier" = 1.0
+
+[Events]
+	#this value multiplies the default chance of a meteorite spawning during a meteor shower (Default: 1)
+	"Meteorite Shower Meteorite Spawn Chance  Multiplier" = 1.0
+	#this value multiplies the default chance of a meteorite spawning during a apocalypse (Default: 1)
+	"Apocalypse Meteorite Spawn Chance  Multiplier" = 1.0
+	#this value multiplies the default descend speed of the angry moon (Default: 1)
+	"Angry Moon Descend Speed Multiplier" = 1.0
+
