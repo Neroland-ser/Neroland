@@ -6425,3 +6425,20 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [08Feb2025 02:47:48.966] [Server thread/DEBUG] [portb.transformerlib.TransformerLib/]: Transforming net/minecraft/world/inventory/EnchantmentMenu$1 (target of net/minecraft/world/Container)
 [08Feb2025 02:47:48.967] [Server thread/DEBUG] [portb.transformerlib.TransformerLib/]: Transforming fuzs/easymagic/world/inventory/ModEnchantmentMenu$2 (target of net/minecraft/world/inventory/Slot)
 [08Feb2025 02:47:48.968] [Server thread/DEBUG] [portb.transformerlib.TransformerLib/]: Transforming fuzs/easymagic/world/inventory/ModEnchantmentMenu$3 (target of net/minecraft/world/inventory/Slot)
+[08Feb2025 02:48:30.207] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@42538503
+[08Feb2025 02:48:42.451] [Server thread/DEBUG] [mixin/]: Mixing vanilla.ContainersMixin from biggerstacks.mixins.json into net.minecraft.world.Containers
+[08Feb2025 02:48:42.451] [Server thread/DEBUG] [mixin/]: biggerstacks.mixins.json:vanilla.ContainersMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_8 supports class version 52)
+[08Feb2025 02:49:27.348] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save neroland
+[08Feb2025 02:49:27.359] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete neroland
+[08Feb2025 02:50:48.639] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Dynamic Lights killing off LightSource on dead Entity: ItemEntity['Torch'/4384, l='ServerLevel[neroland]', x=-1680.13, y=65.00, z=435.20, removed=DISCARDED]
+[08Feb2025 02:50:55.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Jesus4448: Set own game mode to Spectator Mode]
+[08Feb2025 02:51:15.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Jesus4448: Set own game mode to Creative Mode]
+[08Feb2025 02:51:49.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Roxanne711: Set own game mode to Survival Mode]
+[08Feb2025 02:54:27.362] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save neroland
+[08Feb2025 02:54:27.376] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete neroland
+[08Feb2025 02:56:48.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Roxanne711: Set own game mode to Creative Mode]
+[08Feb2025 02:58:00.693] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[08Feb2025 02:58:03.874] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Roxanne711: Set own game mode to Survival Mode]
+[08Feb2025 02:58:12.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Jesus4448: Set own game mode to Spectator Mode]
+[08Feb2025 02:58:18.557] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Calling addLightSource on entity ItemEntity['Redstone Torch'/6587, l='ServerLevel[neroland]', x=-1871.88, y=60.00, z=719.89], dimensionLocationPath overworld
+[08Feb2025 02:58:18.557] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Successfully registered DynamicLight on Entity: ItemEntity['Redstone Torch'/6587, l='ServerLevel[neroland]', x=-1871.88, y=60.00, z=719.89] in list [atomicstryker.dynamiclights.server.DynamicLightSourceContainer@2b8, atomicstryker.dynamiclights.server.DynamicLightSourceContainer@2b9]

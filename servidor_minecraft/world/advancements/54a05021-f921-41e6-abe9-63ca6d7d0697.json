@@ -2662,6 +2662,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2025-02-08 02:49:07 +0000"
+    },
+    "done": true
+  },
   "twilightforest:recipes/twilightforest/wood/birch_banister": {
     "criteria": {
       "has_item": "2024-12-06 03:53:16 +0000"
@@ -3238,9 +3244,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2025-02-08 02:49:18 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/spartanweaponry.basic/diamond_battle_hammer": {
     "criteria": {
       "has_diamond": "2024-12-04 03:37:33 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/travelersbackpack/emerald": {
+    "criteria": {
+      "has_emerald": "2025-02-08 02:49:18 +0000"
     },
     "done": true
   },
