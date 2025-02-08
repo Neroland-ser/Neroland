@@ -7127,3 +7127,31 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [08Feb2025 03:28:32.031] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id maidensmerrymaking:colored_chicken
 [08Feb2025 03:28:33.124] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id maidensmerrymaking:colored_chicken
 [08Feb2025 03:28:41.371] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2033ms or 40 ticks behind
+[08Feb2025 03:28:52.054] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Calling addLightSource on entity ServerPlayer['Jesus4448'/7065, l='ServerLevel[neroland]', x=-1699.82, y=81.42, z=427.58], dimensionLocationPath overworld
+[08Feb2025 03:28:52.054] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Successfully registered DynamicLight on Entity: ServerPlayer['Jesus4448'/7065, l='ServerLevel[neroland]', x=-1699.82, y=81.42, z=427.58] in list [atomicstryker.dynamiclights.server.DynamicLightSourceContainer@2b8, atomicstryker.dynamiclights.server.DynamicLightSourceContainer@2b9]
+[08Feb2025 03:28:52.270] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Removing Dynamic Light attached to ServerPlayer['Jesus4448'/7065, l='ServerLevel[neroland]', x=-1699.04, y=81.42, z=428.21]
+[08Feb2025 03:28:52.369] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Calling addLightSource on entity ServerPlayer['Jesus4448'/7065, l='ServerLevel[neroland]', x=-1697.40, y=81.42, z=429.42], dimensionLocationPath overworld
+[08Feb2025 03:28:52.370] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Successfully registered DynamicLight on Entity: ServerPlayer['Jesus4448'/7065, l='ServerLevel[neroland]', x=-1697.40, y=81.42, z=429.42] in list [atomicstryker.dynamiclights.server.DynamicLightSourceContainer@2b8, atomicstryker.dynamiclights.server.DynamicLightSourceContainer@2b9]
+[08Feb2025 03:28:52.483] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Removing Dynamic Light attached to ServerPlayer['Jesus4448'/7065, l='ServerLevel[neroland]', x=-1696.55, y=81.42, z=430.01]
+[08Feb2025 03:29:37.351] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save neroland
+[08Feb2025 03:29:37.363] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete neroland
+[08Feb2025 03:30:13.838] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=-1716, y=63, z=430}
+[08Feb2025 03:31:05.283] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[08Feb2025 03:31:05.283] [Server thread/DEBUG] [Spartan Weaponry/]: Original damage source class: class net.minecraft.world.damagesource.EntityDamageSource
+[08Feb2025 03:31:06.551] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[08Feb2025 03:31:06.551] [Server thread/DEBUG] [Spartan Weaponry/]: Original damage source class: class net.minecraft.world.damagesource.EntityDamageSource
+[08Feb2025 03:31:07.102] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[08Feb2025 03:31:07.102] [Server thread/DEBUG] [Spartan Weaponry/]: Original damage source class: class net.minecraft.world.damagesource.EntityDamageSource
+[08Feb2025 03:31:07.818] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[08Feb2025 03:31:07.818] [Server thread/DEBUG] [Spartan Weaponry/]: Original damage source class: class net.minecraft.world.damagesource.EntityDamageSource
+[08Feb2025 03:34:37.346] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save neroland
+[08Feb2025 03:34:37.358] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete neroland
+[08Feb2025 03:35:25.505] [Server thread/DEBUG] [portb.transformerlib.TransformerLib/]: Transforming com/tiviacz/travelersbackpack/inventory/CraftingContainerImproved (target of net/minecraft/world/Container)
+[08Feb2025 03:35:25.516] [Server thread/DEBUG] [portb.transformerlib.TransformerLib/]: Transforming net/minecraftforge/items/wrapper/RecipeWrapper (target of net/minecraft/world/Container)
+[08Feb2025 03:35:36.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Jesus4448: Set own game mode to Spectator Mode]
+[08Feb2025 03:35:49.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Roxanne711: Set own game mode to Spectator Mode]
+[08Feb2025 03:35:54.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Roxanne711: Teleported Roxanne711 to Jesus4448]
+[08Feb2025 03:36:28.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Jesus4448: Set own game mode to Creative Mode]
+[08Feb2025 03:36:34.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Roxanne711: Set own game mode to Creative Mode]
+[08Feb2025 03:37:13.149] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Roxanne711 lost connection: Timed out
+[08Feb2025 03:37:13.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roxanne711 left the game

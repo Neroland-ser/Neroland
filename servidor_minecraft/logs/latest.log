@@ -716,3 +716,11 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [08Feb2025 03:28:32.031] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id maidensmerrymaking:colored_chicken
 [08Feb2025 03:28:33.124] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id maidensmerrymaking:colored_chicken
 [08Feb2025 03:28:41.371] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2033ms or 40 ticks behind
+[08Feb2025 03:30:13.838] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=-1716, y=63, z=430}
+[08Feb2025 03:35:36.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Jesus4448: Set own game mode to Spectator Mode]
+[08Feb2025 03:35:49.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Roxanne711: Set own game mode to Spectator Mode]
+[08Feb2025 03:35:54.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Roxanne711: Teleported Roxanne711 to Jesus4448]
+[08Feb2025 03:36:28.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Jesus4448: Set own game mode to Creative Mode]
+[08Feb2025 03:36:34.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Roxanne711: Set own game mode to Creative Mode]
+[08Feb2025 03:37:13.149] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Roxanne711 lost connection: Timed out
+[08Feb2025 03:37:13.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roxanne711 left the game
