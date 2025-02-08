@@ -17,6 +17,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/brick_wall": {
+    "criteria": {
+      "has_bricks": "2025-02-08 03:36:54 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_bricks": {
     "criteria": {
       "has_stone": "2024-12-04 02:53:52 +0000"
@@ -422,6 +428,12 @@
   "spartanweaponry:recipes/spartanweaponry.basic/diamond_quarterstaff": {
     "criteria": {
       "has_diamond": "2024-12-04 03:37:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_stairs": {
+    "criteria": {
+      "has_bricks": "2025-02-08 03:36:54 +0000"
     },
     "done": true
   },
@@ -1322,6 +1334,12 @@
   "dungeons_arise:wda_root": {
     "criteria": {
       "WDA": "2024-12-02 02:01:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_slab": {
+    "criteria": {
+      "has_bricks": "2025-02-08 03:36:54 +0000"
     },
     "done": true
   },
@@ -2608,6 +2626,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/brick_slab_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2025-02-08 03:36:54 +0000"
+    },
+    "done": true
+  },
   "spartanshields:recipes/spartanshields/copper_tower_shield": {
     "criteria": {
       "has_copper_ingot": "2024-12-04 04:02:25 +0000"
@@ -3001,6 +3025,12 @@
   "minecraft:recipes/building_blocks/black_stained_glass": {
     "criteria": {
       "has_glass": "2024-12-02 04:42:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_stairs_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2025-02-08 03:36:54 +0000"
     },
     "done": true
   },
@@ -3716,6 +3746,12 @@
   "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2024-12-04 02:58:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brick_wall_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2025-02-08 03:36:54 +0000"
     },
     "done": true
   },
