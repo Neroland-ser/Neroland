@@ -686,3 +686,26 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [08Feb2025 02:58:00.693] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
 [08Feb2025 02:58:03.874] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Roxanne711: Set own game mode to Survival Mode]
 [08Feb2025 02:58:12.799] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Jesus4448: Set own game mode to Spectator Mode]
+[08Feb2025 02:58:48.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Roxanne711: Set own game mode to Spectator Mode]
+[08Feb2025 03:00:20.936] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2048ms or 40 ticks behind
+[08Feb2025 03:02:00.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Jesus4448: Set own game mode to Survival Mode]
+[08Feb2025 03:02:04.498] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jesus4448 was kicked for floating too long!
+[08Feb2025 03:02:04.499] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jesus4448 lost connection: Flying is not enabled on this server
+[08Feb2025 03:02:04.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jesus4448 left the game
+[08Feb2025 03:02:04.553] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[08Feb2025 03:02:10.902] [User Authenticator #7/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Jesus4448 is 54a05021-f921-41e6-abe9-63ca6d7d0697
+[08Feb2025 03:02:13.667] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@6185c6bc
+[08Feb2025 03:02:13.677] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Jesus4448[/127.81.224.95:56995] logged in with entity id 7065 at (-1755.3171310086311, 642.0710396407967, 472.2259991614511)
+[08Feb2025 03:02:13.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jesus4448 joined the game
+[08Feb2025 03:02:13.732] [Server thread/INFO] [Jade/]: Syncing config to Jesus4448 (54a05021-f921-41e6-abe9-63ca6d7d0697)
+[08Feb2025 03:02:16.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Jesus4448: Set own game mode to Spectator Mode]
+[08Feb2025 03:02:19.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Jesus4448: Set own game mode to Creative Mode]
+[08Feb2025 03:02:30.010] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id maidensmerrymaking:colored_chicken
+[08Feb2025 03:02:43.972] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id maidensmerrymaking:colored_chicken
+[08Feb2025 03:02:45.016] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id maidensmerrymaking:colored_chicken
+[08Feb2025 03:02:46.557] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id maidensmerrymaking:colored_chicken
+[08Feb2025 03:04:40.380] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id maidensmerrymaking:colored_chicken
+[08Feb2025 03:04:40.381] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id maidensmerrymaking:colored_chicken
+[08Feb2025 03:04:40.381] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id maidensmerrymaking:colored_chicken
+[08Feb2025 03:05:59.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Roxanne711: Set own game mode to Creative Mode]
+[08Feb2025 03:08:13.190] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=-1626, y=63, z=470}

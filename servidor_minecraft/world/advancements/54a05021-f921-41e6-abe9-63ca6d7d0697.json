@@ -1924,6 +1924,12 @@
     },
     "done": true
   },
+  "endergetic:recipes/transportation/poise_boat": {
+    "criteria": {
+      "in_water": "2025-02-08 03:02:31 +0000"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/travelersbackpack/skeleton": {
     "criteria": {
       "has_arrow": "2024-12-02 04:15:48 +0000"
