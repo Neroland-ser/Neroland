@@ -6036,3 +6036,19 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [12Feb2025 02:33:21.646] [Server thread/DEBUG] [portb.transformerlib.TransformerLib/]: Transforming net/minecraft/world/CompoundContainer (target of net/minecraft/world/Container)
 [12Feb2025 02:35:28.447] [Server thread/DEBUG] [portb.transformerlib.TransformerLib/]: Transforming com/tiviacz/travelersbackpack/inventory/CraftingContainerImproved (target of net/minecraft/world/Container)
 [12Feb2025 02:35:28.459] [Server thread/DEBUG] [portb.transformerlib.TransformerLib/]: Transforming net/minecraftforge/items/wrapper/RecipeWrapper (target of net/minecraft/world/Container)
+[12Feb2025 02:38:16.867] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save neroland
+[12Feb2025 02:38:16.883] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete neroland
+[12Feb2025 02:42:11.186] [Server thread/DEBUG] [portb.transformerlib.TransformerLib/]: Transforming net/minecraftforge/items/wrapper/CombinedInvWrapper (target of net/minecraftforge/items/IItemHandler)
+[12Feb2025 02:42:11.187] [Server thread/DEBUG] [portb.transformerlib.TransformerLib/]: Transforming net/minecraftforge/items/wrapper/RangedWrapper (target of net/minecraftforge/items/IItemHandler)
+[12Feb2025 02:42:11.187] [Server thread/DEBUG] [portb.transformerlib.TransformerLib/]: Transforming net/minecraftforge/items/wrapper/PlayerArmorInvWrapper (target of net/minecraftforge/items/IItemHandler)
+[12Feb2025 02:42:11.188] [Server thread/DEBUG] [portb.transformerlib.TransformerLib/]: Transforming net/minecraftforge/items/wrapper/PlayerOffhandInvWrapper (target of net/minecraftforge/items/IItemHandler)
+[12Feb2025 02:42:44.889] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=-1651, y=63, z=439}
+[12Feb2025 02:43:16.849] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save neroland
+[12Feb2025 02:43:16.866] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete neroland
+[12Feb2025 02:45:39.864] [Server thread/DEBUG] [portb.transformerlib.TransformerLib/]: Transforming lain/mods/cos/impl/inventory/ContainerCosArmor$1 (target of net/minecraft/world/inventory/Slot)
+[12Feb2025 02:45:39.865] [Server thread/DEBUG] [portb.transformerlib.TransformerLib/]: Transforming lain/mods/cos/impl/inventory/ContainerCosArmor$2 (target of net/minecraft/world/inventory/Slot)
+[12Feb2025 02:45:39.865] [Server thread/DEBUG] [portb.transformerlib.TransformerLib/]: Transforming lain/mods/cos/impl/inventory/ContainerCosArmor$3 (target of net/minecraft/world/inventory/Slot)
+[12Feb2025 02:46:13.313] [Server thread/DEBUG] [portb.transformerlib.TransformerLib/]: Transforming ttv/migami/jeg/common/container/ScrapWorkbenchContainer$1 (target of net/minecraft/world/inventory/Slot)
+[12Feb2025 02:46:49.540] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Calling addLightSource on entity ServerPlayer['Jesus4448'/748, l='ServerLevel[neroland]', x=-1711.80, y=65.25, z=442.86], dimensionLocationPath overworld
+[12Feb2025 02:46:49.540] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Successfully registered DynamicLight on Entity: ServerPlayer['Jesus4448'/748, l='ServerLevel[neroland]', x=-1711.80, y=65.25, z=442.86] in list [atomicstryker.dynamiclights.server.DynamicLightSourceContainer@2e6, atomicstryker.dynamiclights.server.DynamicLightSourceContainer@2da]
+[12Feb2025 02:46:50.944] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Removing Dynamic Light attached to ServerPlayer['Jesus4448'/748, l='ServerLevel[neroland]', x=-1716.15, y=65.00, z=444.71]
