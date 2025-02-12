@@ -3695,6 +3695,12 @@
     },
     "done": true
   },
+  "endofherobrine:recipes/decorations/cursed_head": {
+    "criteria": {
+      "has_item": "2025-02-12 03:08:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2024-12-02 04:19:59 +0000"
