@@ -665,6 +665,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2025-02-12 04:27:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dark_oak_fence_gate": {
     "criteria": {
       "has_planks": "2024-12-02 02:45:58 +0000"
@@ -713,6 +719,12 @@
     },
     "done": true
   },
+  "aether:recipes/combat/diamond_helmet_repairing": {
+    "criteria": {
+      "has_diamond_helmet": "2025-02-12 04:11:53 +0000"
+    },
+    "done": true
+  },
   "twilightforest:twilight_hunter": {
     "criteria": {
       "kobold": "2024-12-18 04:34:35 +0000"
@@ -734,6 +746,12 @@
   "securitycraft:recipes/securitycraft/reinforced_yellow_stained_glass_pane_from_glass": {
     "criteria": {
       "has_glass": "2024-12-02 04:42:14 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:adventure/way_sign": {
+    "criteria": {
+      "bastion": "2025-02-12 04:54:51 +0000"
     },
     "done": true
   },
@@ -1423,6 +1441,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2025-02-12 04:27:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/red_wool": {
     "criteria": {
       "has_white_wool": "2024-12-02 02:59:02 +0000"
@@ -1567,6 +1591,12 @@
     },
     "done": true
   },
+  "aether:recipes/combat/diamond_leggings_repairing": {
+    "criteria": {
+      "has_diamond_leggings": "2025-02-12 04:11:40 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/brown_concrete_powder": {
     "criteria": {
       "has_sand": "2024-12-02 03:40:27 +0000"
@@ -1648,6 +1678,12 @@
   "minecraft:recipes/decorations/jukebox": {
     "criteria": {
       "has_diamond": "2024-12-02 03:15:48 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/diamond_boots_repairing": {
+    "criteria": {
+      "has_diamond_boots": "2025-02-12 04:11:57 +0000"
     },
     "done": true
   },
@@ -1902,6 +1938,12 @@
   "minecraft:recipes/redstone/oak_fence_gate": {
     "criteria": {
       "has_planks": "2024-12-02 02:45:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2025-02-12 04:27:56 +0000"
     },
     "done": true
   },
@@ -2806,6 +2848,12 @@
     },
     "done": true
   },
+  "aether:recipes/combat/diamond_chestplate_repairing": {
+    "criteria": {
+      "has_diamond_chestplate": "2025-02-12 04:12:03 +0000"
+    },
+    "done": true
+  },
   "minecraft:nether/loot_bastion": {
     "criteria": {
       "loot_bastion_other": "2024-12-17 03:25:15 +0000"
@@ -3181,6 +3229,12 @@
   "minecraft:recipes/combat/golden_sword": {
     "criteria": {
       "has_gold_ingot": "2024-12-17 03:25:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_leggings": "2025-02-12 04:11:40 +0000"
     },
     "done": true
   },
@@ -3676,6 +3730,13 @@
       "has_diamond": "2024-12-02 03:15:48 +0000"
     },
     "done": true
+  },
+  "endofherobrine:story/exorcist": {
+    "criteria": {
+      "endofherobrine:chicken": "2025-02-12 04:30:15 +0000",
+      "endofherobrine:sheep": "2025-02-12 04:31:13 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/redstone/lightning_rod": {
     "criteria": {
@@ -4361,6 +4422,7 @@
       "minecraft:dripstone_caves": "2024-12-08 04:42:30 +0000",
       "minecraft:cold_ocean": "2024-12-06 03:48:47 +0000",
       "minecraft:forest": "2024-12-02 03:28:03 +0000",
+      "minecraft:windswept_forest": "2025-02-12 04:55:32 +0000",
       "minecraft:ocean": "2024-12-02 02:12:18 +0000",
       "minecraft:old_growth_birch_forest": "2024-12-02 03:27:49 +0000",
       "minecraft:windswept_gravelly_hills": "2024-12-08 04:34:06 +0000",
@@ -5767,6 +5829,12 @@
   "minecraft:recipes/tools/compass": {
     "criteria": {
       "has_redstone": "2024-12-04 03:37:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2025-02-12 04:36:00 +0000"
     },
     "done": true
   },
