@@ -5680,6 +5680,12 @@
     },
     "done": true
   },
+  "graveyard:graveyard/corruption": {
+    "criteria": {
+      "corruption": "2025-02-08 03:51:17 +0000"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/travelersbackpack/bookshelf": {
     "criteria": {
       "has_book": "2024-12-08 03:36:24 +0000"
