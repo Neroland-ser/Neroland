@@ -6068,3 +6068,175 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [12Feb2025 02:54:39.647] [Server thread/DEBUG] [mixin/]: Mixing vanilla.ContainersMixin from biggerstacks.mixins.json into net.minecraft.world.Containers
 [12Feb2025 02:54:39.647] [Server thread/DEBUG] [mixin/]: biggerstacks.mixins.json:vanilla.ContainersMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_8 supports class version 52)
 [12Feb2025 02:55:22.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jesus4448 has made the advancement [Enchanter]
+[12Feb2025 02:58:16.840] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save neroland
+[12Feb2025 02:58:16.853] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete neroland
+[12Feb2025 03:00:32.643] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Calling addLightSource on entity ServerPlayer['Jesus4448'/748, l='ServerLevel[neroland]', x=-1684.60, y=65.00, z=436.51], dimensionLocationPath overworld
+[12Feb2025 03:00:32.644] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Successfully registered DynamicLight on Entity: ServerPlayer['Jesus4448'/748, l='ServerLevel[neroland]', x=-1684.60, y=65.00, z=436.51] in list [atomicstryker.dynamiclights.server.DynamicLightSourceContainer@2e6, atomicstryker.dynamiclights.server.DynamicLightSourceContainer@2da]
+[12Feb2025 03:00:33.491] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Removing Dynamic Light attached to ServerPlayer['Jesus4448'/748, l='ServerLevel[neroland]', x=-1684.60, y=65.00, z=436.51]
+[12Feb2025 03:01:38.030] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=-1704, y=63, z=423}
+[12Feb2025 03:02:47.309] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2030ms or 40 ticks behind
+[12Feb2025 03:03:18.844] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save neroland
+[12Feb2025 03:03:18.856] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete neroland
+[12Feb2025 03:03:33.939] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Calling addLightSource on entity ServerPlayer['Roxanne711'/1373, l='ServerLevel[neroland]', x=-1684.70, y=60.00, z=427.30], dimensionLocationPath overworld
+[12Feb2025 03:03:33.939] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Successfully registered DynamicLight on Entity: ServerPlayer['Roxanne711'/1373, l='ServerLevel[neroland]', x=-1684.70, y=60.00, z=427.30] in list [atomicstryker.dynamiclights.server.DynamicLightSourceContainer@2e6, atomicstryker.dynamiclights.server.DynamicLightSourceContainer@2da]
+[12Feb2025 03:03:35.493] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Removing Dynamic Light attached to ServerPlayer['Roxanne711'/1373, l='ServerLevel[neroland]', x=-1684.70, y=60.00, z=427.30]
+[12Feb2025 03:03:36.396] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Calling addLightSource on entity ServerPlayer['Roxanne711'/1373, l='ServerLevel[neroland]', x=-1684.70, y=60.00, z=427.30], dimensionLocationPath overworld
+[12Feb2025 03:03:36.396] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Successfully registered DynamicLight on Entity: ServerPlayer['Roxanne711'/1373, l='ServerLevel[neroland]', x=-1684.70, y=60.00, z=427.30] in list [atomicstryker.dynamiclights.server.DynamicLightSourceContainer@2e6, atomicstryker.dynamiclights.server.DynamicLightSourceContainer@2da]
+[12Feb2025 03:03:50.687] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Calling addLightSource on entity ServerPlayer['Jesus4448'/748, l='ServerLevel[neroland]', x=-1684.02, y=36.00, z=427.30], dimensionLocationPath overworld
+[12Feb2025 03:03:50.687] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Successfully registered DynamicLight on Entity: ServerPlayer['Jesus4448'/748, l='ServerLevel[neroland]', x=-1684.02, y=36.00, z=427.30] in list [atomicstryker.dynamiclights.server.DynamicLightSourceContainer@2e6, atomicstryker.dynamiclights.server.DynamicLightSourceContainer@2da, atomicstryker.dynamiclights.server.DynamicLightSourceContainer@55d]
+[12Feb2025 03:04:18.475] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Calling addLightSource on entity ItemEntity['Torch'/8820, l='ServerLevel[neroland]', x=-1681.93, y=19.32, z=427.23], dimensionLocationPath overworld
+[12Feb2025 03:04:18.475] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Successfully registered DynamicLight on Entity: ItemEntity['Torch'/8820, l='ServerLevel[neroland]', x=-1681.93, y=19.32, z=427.23] in list [atomicstryker.dynamiclights.server.DynamicLightSourceContainer@2e6, atomicstryker.dynamiclights.server.DynamicLightSourceContainer@2da, atomicstryker.dynamiclights.server.DynamicLightSourceContainer@55d, atomicstryker.dynamiclights.server.DynamicLightSourceContainer@2ec]
+[12Feb2025 03:04:20.782] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[12Feb2025 03:04:24.524] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Dynamic Lights killing off LightSource on dead Entity: ItemEntity['Torch'/8820, l='ServerLevel[neroland]', x=-1680.87, y=17.00, z=428.88, removed=DISCARDED]
+[12Feb2025 03:04:40.221] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4442ms or 88 ticks behind
+[12Feb2025 03:06:11.992] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Removing Dynamic Light attached to ServerPlayer['Jesus4448'/748, l='ServerLevel[neroland]', x=-1707.30, y=-11.00, z=419.10]
+[12Feb2025 03:06:22.941] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Calling addLightSource on entity ServerPlayer['Jesus4448'/748, l='ServerLevel[neroland]', x=-1704.34, y=-11.00, z=418.45], dimensionLocationPath overworld
+[12Feb2025 03:06:22.941] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Successfully registered DynamicLight on Entity: ServerPlayer['Jesus4448'/748, l='ServerLevel[neroland]', x=-1704.34, y=-11.00, z=418.45] in list [atomicstryker.dynamiclights.server.DynamicLightSourceContainer@2e6, atomicstryker.dynamiclights.server.DynamicLightSourceContainer@2da, atomicstryker.dynamiclights.server.DynamicLightSourceContainer@55d]
+[12Feb2025 03:06:30.338] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Removing Dynamic Light attached to ServerPlayer['Jesus4448'/748, l='ServerLevel[neroland]', x=-1704.70, y=-10.00, z=421.56]
+[12Feb2025 03:06:50.597] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Calling addLightSource on entity ServerPlayer['Jesus4448'/748, l='ServerLevel[neroland]', x=-1698.19, y=-20.00, z=409.13], dimensionLocationPath overworld
+[12Feb2025 03:06:50.597] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Successfully registered DynamicLight on Entity: ServerPlayer['Jesus4448'/748, l='ServerLevel[neroland]', x=-1698.19, y=-20.00, z=409.13] in list [atomicstryker.dynamiclights.server.DynamicLightSourceContainer@2e6, atomicstryker.dynamiclights.server.DynamicLightSourceContainer@2da, atomicstryker.dynamiclights.server.DynamicLightSourceContainer@55d]
+[12Feb2025 03:06:54.572] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Removing Dynamic Light attached to ServerPlayer['Jesus4448'/748, l='ServerLevel[neroland]', x=-1689.57, y=-23.00, z=400.04]
+[12Feb2025 03:06:56.417] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[12Feb2025 03:06:56.417] [Server thread/DEBUG] [Spartan Weaponry/]: Original damage source class: class net.minecraft.world.damagesource.EntityDamageSource
+[12Feb2025 03:06:56.421] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2142ms or 42 ticks behind
+[12Feb2025 03:06:59.427] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[12Feb2025 03:06:59.427] [Server thread/DEBUG] [Spartan Weaponry/]: Original damage source class: class net.minecraft.world.damagesource.EntityDamageSource
+[12Feb2025 03:07:03.146] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[12Feb2025 03:07:03.146] [Server thread/DEBUG] [Spartan Weaponry/]: Original damage source class: class net.minecraft.world.damagesource.EntityDamageSource
+[12Feb2025 03:07:03.419] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[12Feb2025 03:07:03.419] [Server thread/DEBUG] [Spartan Weaponry/]: Original damage source class: class net.minecraft.world.damagesource.EntityDamageSource
+[12Feb2025 03:07:04.854] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:05.476] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[12Feb2025 03:07:05.476] [Server thread/DEBUG] [Spartan Weaponry/]: Original damage source class: class net.minecraft.world.damagesource.EntityDamageSource
+[12Feb2025 03:07:05.757] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[12Feb2025 03:07:05.757] [Server thread/DEBUG] [Spartan Weaponry/]: Original damage source class: class net.minecraft.world.damagesource.EntityDamageSource
+[12Feb2025 03:07:06.488] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:09.701] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Calling addLightSource on entity ServerPlayer['Jesus4448'/748, l='ServerLevel[neroland]', x=-1679.20, y=-26.00, z=393.49], dimensionLocationPath overworld
+[12Feb2025 03:07:09.701] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Successfully registered DynamicLight on Entity: ServerPlayer['Jesus4448'/748, l='ServerLevel[neroland]', x=-1679.20, y=-26.00, z=393.49] in list [atomicstryker.dynamiclights.server.DynamicLightSourceContainer@2e6, atomicstryker.dynamiclights.server.DynamicLightSourceContainer@2da, atomicstryker.dynamiclights.server.DynamicLightSourceContainer@55d]
+[12Feb2025 03:07:11.809] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Removing Dynamic Light attached to ServerPlayer['Jesus4448'/748, l='ServerLevel[neroland]', x=-1686.24, y=-26.00, z=389.67]
+[12Feb2025 03:07:12.858] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Calling addLightSource on entity ServerPlayer['Jesus4448'/748, l='ServerLevel[neroland]', x=-1688.55, y=-25.75, z=383.31], dimensionLocationPath overworld
+[12Feb2025 03:07:12.858] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Successfully registered DynamicLight on Entity: ServerPlayer['Jesus4448'/748, l='ServerLevel[neroland]', x=-1688.55, y=-25.75, z=383.31] in list [atomicstryker.dynamiclights.server.DynamicLightSourceContainer@2e6, atomicstryker.dynamiclights.server.DynamicLightSourceContainer@2da, atomicstryker.dynamiclights.server.DynamicLightSourceContainer@55d]
+[12Feb2025 03:07:14.177] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2798ms or 55 ticks behind
+[12Feb2025 03:07:17.891] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Removing Dynamic Light attached to ServerPlayer['Jesus4448'/748, l='ServerLevel[neroland]', x=-1693.54, y=-32.00, z=361.61]
+[12Feb2025 03:07:17.979] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Calling addLightSource on entity ItemEntity['Torch'/9698, l='ServerLevel[neroland]', x=-1709.28, y=-19.44, z=405.29], dimensionLocationPath overworld
+[12Feb2025 03:07:17.979] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Successfully registered DynamicLight on Entity: ItemEntity['Torch'/9698, l='ServerLevel[neroland]', x=-1709.28, y=-19.44, z=405.29] in list [atomicstryker.dynamiclights.server.DynamicLightSourceContainer@2e6, atomicstryker.dynamiclights.server.DynamicLightSourceContainer@2da, atomicstryker.dynamiclights.server.DynamicLightSourceContainer@55d]
+[12Feb2025 03:07:18.477] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[12Feb2025 03:07:18.477] [Server thread/DEBUG] [Spartan Weaponry/]: Original damage source class: class net.minecraft.world.damagesource.EntityDamageSource
+[12Feb2025 03:07:19.457] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[12Feb2025 03:07:19.457] [Server thread/DEBUG] [Spartan Weaponry/]: Original damage source class: class net.minecraft.world.damagesource.EntityDamageSource
+[12Feb2025 03:07:20.694] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[12Feb2025 03:07:20.695] [Server thread/DEBUG] [Spartan Weaponry/]: Original damage source class: class net.minecraft.world.damagesource.EntityDamageSource
+[12Feb2025 03:07:23.692] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Calling addLightSource on entity ServerPlayer['Jesus4448'/748, l='ServerLevel[neroland]', x=-1699.09, y=-33.00, z=352.46], dimensionLocationPath overworld
+[12Feb2025 03:07:23.692] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Successfully registered DynamicLight on Entity: ServerPlayer['Jesus4448'/748, l='ServerLevel[neroland]', x=-1699.09, y=-33.00, z=352.46] in list [atomicstryker.dynamiclights.server.DynamicLightSourceContainer@2e6, atomicstryker.dynamiclights.server.DynamicLightSourceContainer@2da, atomicstryker.dynamiclights.server.DynamicLightSourceContainer@55d, atomicstryker.dynamiclights.server.DynamicLightSourceContainer@25e2]
+[12Feb2025 03:07:24.684] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Calling addLightSource on entity ItemEntity['Redstone Torch'/9712, l='ServerLevel[neroland]', x=-1860.88, y=29.34, z=144.37], dimensionLocationPath overworld
+[12Feb2025 03:07:24.684] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Successfully registered DynamicLight on Entity: ItemEntity['Redstone Torch'/9712, l='ServerLevel[neroland]', x=-1860.88, y=29.34, z=144.37] in list [atomicstryker.dynamiclights.server.DynamicLightSourceContainer@2e6, atomicstryker.dynamiclights.server.DynamicLightSourceContainer@2da, atomicstryker.dynamiclights.server.DynamicLightSourceContainer@55d, atomicstryker.dynamiclights.server.DynamicLightSourceContainer@25e2, atomicstryker.dynamiclights.server.DynamicLightSourceContainer@2ec]
+[12Feb2025 03:07:26.092] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Removing Dynamic Light attached to ServerPlayer['Jesus4448'/748, l='ServerLevel[neroland]', x=-1707.18, y=-32.83, z=344.62]
+[12Feb2025 03:07:28.897] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:29.142] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:29.146] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[12Feb2025 03:07:29.146] [Server thread/DEBUG] [Spartan Weaponry/]: Original damage source class: class net.minecraft.world.damagesource.EntityDamageSource
+[12Feb2025 03:07:29.205] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Calling addLightSource on entity ItemEntity['Redstone Torch'/9745, l='ServerLevel[neroland]', x=-1904.61, y=62.52, z=192.49], dimensionLocationPath overworld
+[12Feb2025 03:07:29.205] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Successfully registered DynamicLight on Entity: ItemEntity['Redstone Torch'/9745, l='ServerLevel[neroland]', x=-1904.61, y=62.52, z=192.49] in list [atomicstryker.dynamiclights.server.DynamicLightSourceContainer@2e6, atomicstryker.dynamiclights.server.DynamicLightSourceContainer@2da, atomicstryker.dynamiclights.server.DynamicLightSourceContainer@55d, atomicstryker.dynamiclights.server.DynamicLightSourceContainer@25e2, atomicstryker.dynamiclights.server.DynamicLightSourceContainer@25f0]
+[12Feb2025 03:07:29.325] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:29.345] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:29.362] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:29.396] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:29.443] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:29.742] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:30.264] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[12Feb2025 03:07:30.264] [Server thread/DEBUG] [Spartan Weaponry/]: Original damage source class: class net.minecraft.world.damagesource.EntityDamageSource
+[12Feb2025 03:07:31.611] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[12Feb2025 03:07:31.612] [Server thread/DEBUG] [Spartan Weaponry/]: Original damage source class: class net.minecraft.world.damagesource.EntityDamageSource
+[12Feb2025 03:07:33.312] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Dynamic Lights killing off LightSource on dead Entity: ItemEntity['Redstone Torch'/9745, l='ServerLevel[neroland]', x=-1904.61, y=62.52, z=192.49, removed=UNLOADED_TO_CHUNK]
+[12Feb2025 03:07:33.313] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:33.328] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:33.348] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:33.365] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:33.378] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:33.394] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:33.406] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:33.420] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:33.434] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:33.653] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:33.672] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:33.691] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:33.709] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:33.713] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[12Feb2025 03:07:33.713] [Server thread/DEBUG] [Spartan Weaponry/]: Original damage source class: class net.minecraft.world.damagesource.EntityDamageSource
+[12Feb2025 03:07:33.730] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:33.744] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:33.759] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:33.778] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:33.796] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:33.842] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:33.894] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:33.945] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:33.995] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:34.045] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:34.096] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:34.146] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:34.193] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:34.242] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:34.501] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[12Feb2025 03:07:34.501] [Server thread/DEBUG] [Spartan Weaponry/]: Original damage source class: class net.minecraft.world.damagesource.EntityDamageSource
+[12Feb2025 03:07:37.993] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[12Feb2025 03:07:37.994] [Server thread/DEBUG] [Spartan Weaponry/]: Original damage source class: class net.minecraft.world.damagesource.EntityDamageSource
+[12Feb2025 03:07:38.091] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[12Feb2025 03:07:38.091] [Server thread/DEBUG] [Spartan Weaponry/]: Original damage source class: class net.minecraft.world.damagesource.EntityDamageSource
+[12Feb2025 03:07:38.512] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:38.758] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:38.780] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:39.016] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:39.041] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:39.060] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:39.078] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:39.093] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:39.111] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:39.127] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:39.142] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:39.157] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:39.176] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:39.191] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:39.206] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:39.209] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[12Feb2025 03:07:39.209] [Server thread/DEBUG] [Spartan Weaponry/]: Original damage source class: class net.minecraft.world.damagesource.EntityDamageSource
+[12Feb2025 03:07:39.210] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted EnchantmentHelper.getSweepingDamageRatio() method!
+[12Feb2025 03:07:39.224] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:39.242] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:39.259] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:39.277] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:39.295] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:39.311] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:39.327] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:39.342] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:39.356] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:40.825] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:40.841] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:40.858] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:40.878] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:40.895] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:40.914] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:40.946] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:40.997] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:41.046] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Calling addLightSource on entity ItemEntity['Redstone Torch'/9809, l='ServerLevel[neroland]', x=-1904.61, y=62.52, z=192.49], dimensionLocationPath overworld
+[12Feb2025 03:07:41.046] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Successfully registered DynamicLight on Entity: ItemEntity['Redstone Torch'/9809, l='ServerLevel[neroland]', x=-1904.61, y=62.52, z=192.49] in list [atomicstryker.dynamiclights.server.DynamicLightSourceContainer@2e6, atomicstryker.dynamiclights.server.DynamicLightSourceContainer@2da, atomicstryker.dynamiclights.server.DynamicLightSourceContainer@55d, atomicstryker.dynamiclights.server.DynamicLightSourceContainer@25e2, atomicstryker.dynamiclights.server.DynamicLightSourceContainer@25f0]
+[12Feb2025 03:07:41.158] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:41.180] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:41.200] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:41.245] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Calling addLightSource on entity ServerPlayer['Jesus4448'/748, l='ServerLevel[neroland]', x=-1712.70, y=-35.25, z=338.43], dimensionLocationPath overworld
+[12Feb2025 03:07:41.245] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Successfully registered DynamicLight on Entity: ServerPlayer['Jesus4448'/748, l='ServerLevel[neroland]', x=-1712.70, y=-35.25, z=338.43] in list [atomicstryker.dynamiclights.server.DynamicLightSourceContainer@2e6, atomicstryker.dynamiclights.server.DynamicLightSourceContainer@2da, atomicstryker.dynamiclights.server.DynamicLightSourceContainer@55d, atomicstryker.dynamiclights.server.DynamicLightSourceContainer@25e2, atomicstryker.dynamiclights.server.DynamicLightSourceContainer@25f0, atomicstryker.dynamiclights.server.DynamicLightSourceContainer@2651]
+[12Feb2025 03:07:41.246] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:41.492] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:41.540] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:41.560] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:41.596] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:41.647] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:41.694] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:41.967] [Server thread/DEBUG] [Spartan Weaponry/]: Player collision with arrow entity intercepted!
+[12Feb2025 03:07:43.331] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[12Feb2025 03:07:43.332] [Server thread/DEBUG] [Spartan Weaponry/]: Original damage source class: class net.minecraft.world.damagesource.EntityDamageSource
+[12Feb2025 03:07:43.333] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted EnchantmentHelper.getSweepingDamageRatio() method!
+[12Feb2025 03:07:44.500] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[12Feb2025 03:07:44.500] [Server thread/DEBUG] [Spartan Weaponry/]: Original damage source class: class net.minecraft.world.damagesource.EntityDamageSource
+[12Feb2025 03:07:45.767] [Server thread/DEBUG] [Spartan Weaponry/]: Intercepted DamageSource.playerAttack() method!
+[12Feb2025 03:07:45.767] [Server thread/DEBUG] [Spartan Weaponry/]: Original damage source class: class net.minecraft.world.damagesource.EntityDamageSource

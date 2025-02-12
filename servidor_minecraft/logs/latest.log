@@ -432,3 +432,9 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [12Feb2025 02:52:14.930] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=-1689, y=63, z=410}
 [12Feb2025 02:53:12.680] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_one_who_watches:toww_staring but it was marked as removed already
 [12Feb2025 02:55:22.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jesus4448 has made the advancement [Enchanter]
+[12Feb2025 03:01:38.030] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=-1704, y=63, z=423}
+[12Feb2025 03:02:47.309] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2030ms or 40 ticks behind
+[12Feb2025 03:04:20.782] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[12Feb2025 03:04:40.221] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4442ms or 88 ticks behind
+[12Feb2025 03:06:56.421] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2142ms or 42 ticks behind
+[12Feb2025 03:07:14.177] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2798ms or 55 ticks behind
