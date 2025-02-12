@@ -6052,3 +6052,19 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [12Feb2025 02:46:49.540] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Calling addLightSource on entity ServerPlayer['Jesus4448'/748, l='ServerLevel[neroland]', x=-1711.80, y=65.25, z=442.86], dimensionLocationPath overworld
 [12Feb2025 02:46:49.540] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Successfully registered DynamicLight on Entity: ServerPlayer['Jesus4448'/748, l='ServerLevel[neroland]', x=-1711.80, y=65.25, z=442.86] in list [atomicstryker.dynamiclights.server.DynamicLightSourceContainer@2e6, atomicstryker.dynamiclights.server.DynamicLightSourceContainer@2da]
 [12Feb2025 02:46:50.944] [Server thread/DEBUG] [atomicstryker.dynamiclights.server.DynamicLights/]: Removing Dynamic Light attached to ServerPlayer['Jesus4448'/748, l='ServerLevel[neroland]', x=-1716.15, y=65.00, z=444.71]
+[12Feb2025 02:48:16.856] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save neroland
+[12Feb2025 02:48:16.871] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete neroland
+[12Feb2025 02:49:00.701] [Server thread/DEBUG] [clumps/]: Loaded com.blamejared.clumps.platform.ForgeEventHandler@9f5d1ab for service interface com.blamejared.clumps.platform.IEventHelper
+[12Feb2025 02:49:00.702] [Server thread/DEBUG] [clumps/]: Loaded com.blamejared.clumps.platform.ForgePlatformHelper@5c372826 for service interface com.blamejared.clumps.platform.IPlatformHelper
+[12Feb2025 02:50:56.833] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_one_who_watches:toww_staring but it was marked as removed already
+[12Feb2025 02:52:14.930] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=-1689, y=63, z=410}
+[12Feb2025 02:53:00.982] [Server thread/DEBUG] [portb.transformerlib.TransformerLib/]: Transforming net/mehvahdjukaar/supplementaries/common/items/forge/QuiverItemImpl$QuiverCapability (target of net/minecraftforge/items/IItemHandler)
+[12Feb2025 02:53:12.680] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_one_who_watches:toww_staring but it was marked as removed already
+[12Feb2025 02:53:16.855] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save neroland
+[12Feb2025 02:53:16.869] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete neroland
+[12Feb2025 02:54:31.779] [Server thread/DEBUG] [portb.transformerlib.TransformerLib/]: Transforming fuzs/enchantinginfuser/world/inventory/InfuserMenu$1 (target of net/minecraft/world/inventory/Slot)
+[12Feb2025 02:54:31.779] [Server thread/DEBUG] [portb.transformerlib.TransformerLib/]: Transforming fuzs/enchantinginfuser/world/inventory/InfuserMenu$2 (target of net/minecraft/world/inventory/Slot)
+[12Feb2025 02:54:31.779] [Server thread/DEBUG] [portb.transformerlib.TransformerLib/]: Transforming fuzs/enchantinginfuser/world/inventory/InfuserMenu$3 (target of net/minecraft/world/inventory/Slot)
+[12Feb2025 02:54:39.647] [Server thread/DEBUG] [mixin/]: Mixing vanilla.ContainersMixin from biggerstacks.mixins.json into net.minecraft.world.Containers
+[12Feb2025 02:54:39.647] [Server thread/DEBUG] [mixin/]: biggerstacks.mixins.json:vanilla.ContainersMixin: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_8 supports class version 52)
+[12Feb2025 02:55:22.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jesus4448 has made the advancement [Enchanter]

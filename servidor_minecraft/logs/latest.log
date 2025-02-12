@@ -428,3 +428,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [12Feb2025 02:32:21.608] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2028ms or 40 ticks behind
 [12Feb2025 02:32:23.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Roxanne711: Set own game mode to Survival Mode]
 [12Feb2025 02:42:44.889] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=-1651, y=63, z=439}
+[12Feb2025 02:50:56.833] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_one_who_watches:toww_staring but it was marked as removed already
+[12Feb2025 02:52:14.930] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=-1689, y=63, z=410}
+[12Feb2025 02:53:12.680] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_one_who_watches:toww_staring but it was marked as removed already
+[12Feb2025 02:55:22.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jesus4448 has made the advancement [Enchanter]
