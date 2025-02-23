@@ -1,242 +1,48 @@
-[12Feb2025 05:03:44.484] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.4.2, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, nogui]
-[12Feb2025 05:03:44.488] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.13 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
-[12Feb2025 05:03:45.324] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Neroland/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
-[12Feb2025 05:03:45.812] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Neroland/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.2-43.4.2/fmlcore-1.19.2-43.4.2.jar is missing mods.toml file
-[12Feb2025 05:03:45.813] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Neroland/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.4.2/javafmllanguage-1.19.2-43.4.2.jar is missing mods.toml file
-[12Feb2025 05:03:45.814] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Neroland/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.4.2/lowcodelanguage-1.19.2-43.4.2.jar is missing mods.toml file
-[12Feb2025 05:03:45.816] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Neroland/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.2-43.4.2/mclanguage-1.19.2-43.4.2.jar is missing mods.toml file
-[12Feb2025 05:03:46.023] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[12Feb2025 05:03:46.025] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 10 dependencies adding them to mods collection
-[12Feb2025 05:03:48.581] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[12Feb2025 05:03:48.698] [main/ERROR] [mixin/]: Mixin config justhammers.mixins.json does not specify "minVersion" property
-[12Feb2025 05:03:48.913] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
-[12Feb2025 05:03:48.916] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [tictim.paraglider.MixinConnector]
-[12Feb2025 05:03:48.919] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[12Feb2025 05:03:49.473] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/vanilla.xml
-[12Feb2025 05:03:49.477] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/sophisticated_core.xml
-[12Feb2025 05:03:49.479] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/refinedstorage.xml
-[12Feb2025 05:03:49.482] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/mekanism.xml
-[12Feb2025 05:03:49.485] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/ironfurnaces.xml
-[12Feb2025 05:03:49.487] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/ic2.xml
-[12Feb2025 05:03:49.489] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/computercraft.xml
-[12Feb2025 05:03:49.495] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/assortedstorage.xml
-[12Feb2025 05:03:49.613] [main/WARN] [mixin/]: Reference map 'justhammers-forge-forge-refmap.json' for justhammers.mixins.json could not be read. If this is a development environment you can ignore this message
-[12Feb2025 05:03:49.624] [main/WARN] [mixin/]: Reference map 'mysticaloaktree-common-refmap.json' for mysticaloaktree-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[12Feb2025 05:03:49.627] [main/WARN] [mixin/]: Reference map 'mysticaloaktree-forge-refmap.json' for mysticaloaktree.mixins.json could not be read. If this is a development environment you can ignore this message
-[12Feb2025 05:03:49.666] [main/WARN] [mixin/]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
-[12Feb2025 05:03:49.736] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
-[12Feb2025 05:03:50.473] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/TomatoVineBlock (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.TomatoVineBlock)
-[12Feb2025 05:03:50.473] [main/WARN] [mixin/]: @Mixin target vectorwing.farmersdelight.common.block.TomatoVineBlock was not found supplementaries.mixins.json:CompatFarmersDelightMixin
-[12Feb2025 05:03:51.185] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[12Feb2025 05:03:55.209] [main/INFO] [Diagonal Fences/]: Constructing shapes for nodeWith 2.0, extensionWidth 2.0, nodeHeight 24.0, extensionBottom 0.0, extensionHeight 24.0 took 158 milliseconds
-[12Feb2025 05:03:55.430] [main/INFO] [Diagonal Fences/]: Constructing shapes for nodeWith 2.0, extensionWidth 2.0, nodeHeight 16.0, extensionBottom 0.0, extensionHeight 16.0 took 220 milliseconds
-[12Feb2025 05:03:55.869] [main/INFO] [Diagonal Fences/]: Constructing shapes for nodeWith 2.0, extensionWidth 1.0, nodeHeight 16.0, extensionBottom 6.0, extensionHeight 15.0 took 433 milliseconds
-[12Feb2025 05:03:58.021] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
-[12Feb2025 05:03:59.867] [main/WARN] [mixin/]: Error loading class: vazkii/quark/content/tools/item/PathfindersQuillItem (java.lang.ClassNotFoundException: vazkii.quark.content.tools.item.PathfindersQuillItem)
-[12Feb2025 05:04:00.563] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod easyanvils
-[12Feb2025 05:04:00.700] [modloading-worker-0/INFO] [fastconfigapi/]: FastConfigAPI has been initialized!
-[12Feb2025 05:04:00.773] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
-[12Feb2025 05:04:00.773] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
-[12Feb2025 05:04:00.773] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
-[12Feb2025 05:04:00.774] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
-[12Feb2025 05:04:00.774] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
-[12Feb2025 05:04:00.774] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
-[12Feb2025 05:04:00.775] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
-[12Feb2025 05:04:01.214] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
-[12Feb2025 05:04:01.229] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
-[12Feb2025 05:04:01.913] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.64.
-[12Feb2025 05:04:02.282] [modloading-worker-0/WARN] [yungsapi/]: WARNING: block Block{minecraft:coal_ore} added to BlockSelector exceeds max probabiltiy of 1!
-[12Feb2025 05:04:02.505] [modloading-worker-0/INFO] [com.aetherteam.cumulus.Cumulus/]: Disabling Cumulus as it is on server.
-[12Feb2025 05:04:02.508] [modloading-worker-0/INFO] [Spartan Weaponry/]: Constructing Mod: Spartan Weaponry
-[12Feb2025 05:04:02.509] [modloading-worker-0/INFO] [Spartan Weaponry/]: Initialising API! Version: 9
-[12Feb2025 05:04:02.511] [modloading-worker-0/INFO] [Spartan Weaponry/]: Spartan Weaponry API version 9 has been initalized!
-[12Feb2025 05:04:02.834] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[12Feb2025 05:04:02.865] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
-[12Feb2025 05:04:03.069] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod enchantinginfuser
-[12Feb2025 05:04:03.179] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod easymagic
-[12Feb2025 05:04:03.206] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod visualworkbench
-[12Feb2025 05:04:03.436] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.4.2, for MC 1.19.2 with MCP 20220805.130853
-[12Feb2025 05:04:03.437] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.4.2 Initialized
-[12Feb2025 05:04:03.867] [modloading-worker-0/INFO] [Spartan Shields/]: Constructing Mod: Spartan Shields
-[12Feb2025 05:04:03.988] [modloading-worker-0/INFO] [labellingcontainers/]: Initializing mod...
-[12Feb2025 05:04:04.009] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id labellingcontainers:request_taggable_blocks_config_packet
-[12Feb2025 05:04:04.010] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id labellingcontainers:label_printer_save_packet
-[12Feb2025 05:04:04.012] [modloading-worker-0/WARN] [labellingcontainers/]: Could not run Client Setup (mod is probably running on a Server-Only instance)
-[12Feb2025 05:04:04.026] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod diagonalfences
-[12Feb2025 05:04:04.033] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
-[12Feb2025 05:04:04.149] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod puzzleslib
-[12Feb2025 05:04:04.173] [modloading-worker-0/INFO] [me.treyruffy.betterf3.BetterF3Forge/]: [BetterF3] Starting...
-[12Feb2025 05:04:04.173] [modloading-worker-0/WARN] [me.treyruffy.betterf3.BetterF3Forge/]: [BetterF3] Not supported on dedicated server!
-[12Feb2025 05:04:06.751] [main/INFO] [moonlight/]: Initialized block sets in 15ms
-[12Feb2025 05:04:08.730] [main/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
-[12Feb2025 05:04:08.736] [Thread-0/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
-[12Feb2025 05:04:08.961] [modloading-worker-0/INFO] [Spartan Weaponry/]: Setting up Spartan Weaponry!
-[12Feb2025 05:04:09.054] [modloading-worker-0/INFO] [studio.lunareclipse.watching.Init/]: From The Fog Loaded Successfully!
-[12Feb2025 05:04:09.064] [modloading-worker-0/INFO] [Spartan Shields/]: Setting up Spartan Shields!
-[12Feb2025 05:04:09.096] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easyanvils] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/easyanvils.json
-[12Feb2025 05:04:09.208] [main/INFO] [supplementaries/]: Finished mod setup in: [0, 0, 2, 0, 0, 0, 0, 0, 3] ms
-[12Feb2025 05:04:09.283] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easyanvils] Found status: UP_TO_DATE Current: 4.0.11 Target: null
-[12Feb2025 05:04:09.283] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Starting version check at https://github.com/The-Aether-Team/The-Aether/raw/1.19.2-develop/update.json
-[12Feb2025 05:04:09.339] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:aiming for minecraft:player
-[12Feb2025 05:04:09.340] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:reloading for minecraft:player
-[12Feb2025 05:04:09.341] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:shooting for minecraft:player
-[12Feb2025 05:04:09.363] [main/INFO] [journeymap/]: Initializing Packet Registries
-[12Feb2025 05:04:09.392] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Found status: UP_TO_DATE Current: 1.19.2-1.5.1-forge Target: null
-[12Feb2025 05:04:09.392] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.19.2
-[12Feb2025 05:04:09.440] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
-[12Feb2025 05:04:09.441] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
-[12Feb2025 05:04:09.442] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
-[12Feb2025 05:04:09.443] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
-[12Feb2025 05:04:09.458] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[12Feb2025 05:04:09.459] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
-[12Feb2025 05:04:09.459] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
-[12Feb2025 05:04:09.460] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
-[12Feb2025 05:04:09.460] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
-[12Feb2025 05:04:09.461] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
-[12Feb2025 05:04:09.461] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
-[12Feb2025 05:04:09.531] [main/INFO] [moonlight/]: Initialized color sets in 60ms
-[12Feb2025 05:04:09.577] [main/INFO] [moonlight/]: Initialized color sets in 45ms
-[12Feb2025 05:04:09.733] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying mega torch entity block list overrides...
-[12Feb2025 05:04:09.737] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying dread lamp entity block list overrides...
-[12Feb2025 05:04:09.756] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 16.3.20 Target: 16.3.20
-[12Feb2025 05:04:09.757] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
-[12Feb2025 05:04:09.760] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.aetherteam.aether.integration.jade.AetherJadePlugin
-[12Feb2025 05:04:09.769] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at twilightforest.compat.jade.JadeCompat
-[12Feb2025 05:04:09.771] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationJade
-[12Feb2025 05:04:09.772] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
-[12Feb2025 05:04:09.783] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
-[12Feb2025 05:04:09.791] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
-[12Feb2025 05:04:09.793] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.gravestone.integration.waila.PluginGraveStone
-[12Feb2025 05:04:09.794] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.waila.JadeDataProvider
-[12Feb2025 05:04:10.449] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: AHEAD Current: 1.19.2-1.4.5 Target: null
-[12Feb2025 05:04:10.451] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
-[12Feb2025 05:04:10.645] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: BETA Current: 4.2.1518 Target: null
-[12Feb2025 05:04:10.645] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Supplementaries/master/forge/update.json
-[12Feb2025 05:04:10.656] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Found status: BETA Current: 1.19.2-2.4.20 Target: null
-[12Feb2025 05:04:10.657] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
-[12Feb2025 05:04:10.668] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 8.3.7 Target: null
-[12Feb2025 05:04:10.668] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Starting version check at https://github.com/The-Aether-Team/Cumulus/raw/1.19.2-develop/update.json
-[12Feb2025 05:04:10.755] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Found status: UP_TO_DATE Current: 1.19.2-1.0.0-forge Target: null
-[12Feb2025 05:04:10.756] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
-[12Feb2025 05:04:11.215] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA Current: 0.7.12 Target: 0.7.12
-[12Feb2025 05:04:11.215] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchantinginfuser] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/enchantinginfuser.json
-[12Feb2025 05:04:11.225] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchantinginfuser] Found status: UP_TO_DATE Current: 4.2.2 Target: null
-[12Feb2025 05:04:11.225] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easymagic] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/easymagic.json
-[12Feb2025 05:04:11.235] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easymagic] Found status: UP_TO_DATE Current: 4.3.3 Target: null
-[12Feb2025 05:04:11.235] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [visualworkbench] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/visualworkbench.json
-[12Feb2025 05:04:11.246] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [visualworkbench] Found status: UP_TO_DATE Current: 4.2.4 Target: null
-[12Feb2025 05:04:11.246] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [reap] Starting version check at https://update.maxhenkel.de/forge/reap
-[12Feb2025 05:04:11.352] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [reap] Found status: AHEAD Current: 1.19.2-1.1.2 Target: null
-[12Feb2025 05:04:11.352] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.19.2
-[12Feb2025 05:04:11.456] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 9.0.0+14 Target: 9.0.0+14
-[12Feb2025 05:04:11.457] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[12Feb2025 05:04:11.560] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.9.8 Target: null
-[12Feb2025 05:04:11.560] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
-[12Feb2025 05:04:11.618] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: AHEAD Current: 8.2.41 Target: null
-[12Feb2025 05:04:11.618] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[12Feb2025 05:04:11.730] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.4.2 Target: 43.4.16
-[12Feb2025 05:04:11.730] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Starting version check at https://updates.blamejared.com/get?n=enchdesc&gv=1.19.2
-[12Feb2025 05:04:11.913] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Found status: BETA_OUTDATED Current: 13.0.14 Target: 13.0.20
-[12Feb2025 05:04:11.914] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
-[12Feb2025 05:04:11.924] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: UP_TO_DATE Current: 1.19.2-2.3.7 Target: null
-[12Feb2025 05:04:11.925] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
-[12Feb2025 05:04:12.029] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: AHEAD Current: 1.19.2-1.0.24 Target: null
-[12Feb2025 05:04:12.029] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
-[12Feb2025 05:04:12.139] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.9.6.1 Target: null
-[12Feb2025 05:04:12.139] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [diagonalfences] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/diagonalfences.json
-[12Feb2025 05:04:12.149] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [diagonalfences] Found status: UP_TO_DATE Current: 4.2.6 Target: null
-[12Feb2025 05:04:12.150] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Starting version check at https://raw.githubusercontent.com/DmitryLovin/pluginUpdate/master/invupdate.json
-[12Feb2025 05:04:12.163] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [inventoryhud] Found status: UP_TO_DATE Current: 3.4.26 Target: null
-[12Feb2025 05:04:12.164] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [reds_morestructures_mr] Starting version check at https://api.modrinth.comauth/init?url=https://modrinth.com/datapack/reds-more-structures/version/1.0.7C/updates/DKJltXeY/forge_updates.json
-[12Feb2025 05:04:12.267] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
-java.net.ConnectException: null
-	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:574) ~[java.net.http:?]
-	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:123) ~[java.net.http:?]
-	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:139) ~[fmlcore-1.19.2-43.4.2.jar%23284!/:?]
-	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:177) ~[fmlcore-1.19.2-43.4.2.jar%23284!/:?]
-	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
-	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) [fmlcore-1.19.2-43.4.2.jar%23284!/:?]
-Caused by: java.net.ConnectException
-	at jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1083) ~[java.net.http:?]
-	at jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198) ~[java.net.http:?]
-	at jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56) ~[java.net.http:?]
-	at jdk.internal.net.http.Http2Connection.createAsync(Http2Connection.java:443) ~[java.net.http:?]
-	at jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Http2ClientImpl.java:131) ~[java.net.http:?]
-	at jdk.internal.net.http.ExchangeImpl.get(ExchangeImpl.java:93) ~[java.net.http:?]
-	at jdk.internal.net.http.Exchange.establishExchange(Exchange.java:349) ~[java.net.http:?]
-	at jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:542) ~[java.net.http:?]
-	at jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:386) ~[java.net.http:?]
-	at jdk.internal.net.http.Exchange.responseAsync(Exchange.java:378) ~[java.net.http:?]
-	at jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:408) ~[java.net.http:?]
-	at jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:449) ~[java.net.http:?]
-	at java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?]
-	at java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950) ~[?:?]
-	at java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2340) ~[?:?]
-	at jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:439) ~[java.net.http:?]
-	at jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:341) ~[java.net.http:?]
-	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
-	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[?:?]
-	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:158) ~[java.net.http:?]
-	at java.util.concurrent.CompletableFuture.completeAsync(CompletableFuture.java:2673) ~[?:?]
-	at jdk.internal.net.http.MultiExchange.responseAsync(MultiExchange.java:294) ~[java.net.http:?]
-	at jdk.internal.net.http.HttpClientImpl.sendAsync(HttpClientImpl.java:659) ~[java.net.http:?]
-	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:553) ~[java.net.http:?]
-	... 5 more
-Caused by: java.nio.channels.UnresolvedAddressException
-	at sun.nio.ch.Net.checkAddress(Net.java:149) ~[?:?]
-	at sun.nio.ch.Net.checkAddress(Net.java:157) ~[?:?]
-	at sun.nio.ch.SocketChannelImpl.checkRemote(SocketChannelImpl.java:816) ~[?:?]
-	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:839) ~[?:?]
-	at jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183) ~[java.net.http:?]
-	at java.security.AccessController.doPrivileged(AccessController.java:569) ~[?:?]
-	at jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185) ~[java.net.http:?]
-	at jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56) ~[java.net.http:?]
-	at jdk.internal.net.http.Http2Connection.createAsync(Http2Connection.java:443) ~[java.net.http:?]
-	at jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Http2ClientImpl.java:131) ~[java.net.http:?]
-	at jdk.internal.net.http.ExchangeImpl.get(ExchangeImpl.java:93) ~[java.net.http:?]
-	at jdk.internal.net.http.Exchange.establishExchange(Exchange.java:349) ~[java.net.http:?]
-	at jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:542) ~[java.net.http:?]
-	at jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:386) ~[java.net.http:?]
-	at jdk.internal.net.http.Exchange.responseAsync(Exchange.java:378) ~[java.net.http:?]
-	at jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:408) ~[java.net.http:?]
-	at jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:449) ~[java.net.http:?]
-	at java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?]
-	at java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950) ~[?:?]
-	at java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2340) ~[?:?]
-	at jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:439) ~[java.net.http:?]
-	at jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:341) ~[java.net.http:?]
-	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
-	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[?:?]
-	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:158) ~[java.net.http:?]
-	at java.util.concurrent.CompletableFuture.completeAsync(CompletableFuture.java:2673) ~[?:?]
-	at jdk.internal.net.http.MultiExchange.responseAsync(MultiExchange.java:294) ~[java.net.http:?]
-	at jdk.internal.net.http.HttpClientImpl.sendAsync(HttpClientImpl.java:659) ~[java.net.http:?]
-	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:553) ~[java.net.http:?]
-	... 5 more
-[12Feb2025 05:04:12.270] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
-[12Feb2025 05:04:12.280] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 4.4.3 Target: null
-[12Feb2025 05:04:12.281] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [betterf3] Starting version check at https://api.modrinth.com/updates/betterf3/forge_updates.json
-[12Feb2025 05:04:12.530] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [betterf3] Found status: UP_TO_DATE Current: 4.0.1 Target: null
-[12Feb2025 05:04:14.143] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[12Feb2025 05:04:14.178] [main/ERROR] [net.minecraft.server.Main/FATAL]: Failed to start the minecraft server
-net.minecraft.util.DirectoryLock$LockException: /workspaces/Neroland/servidor_minecraft/./world/session.lock: already locked (possibly by other Minecraft instance?)
-	at net.minecraft.util.DirectoryLock$LockException.m_13648_(DirectoryLock.java:98) ~[server-1.19.2-20220805.130853-srg.jar%23283!/:?]
-	at net.minecraft.util.DirectoryLock.m_13640_(DirectoryLock.java:44) ~[server-1.19.2-20220805.130853-srg.jar%23283!/:?]
-	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.<init>(LevelStorageSource.java:344) ~[server-1.19.2-20220805.130853-srg.jar%23283!/:?]
-	at net.minecraft.world.level.storage.LevelStorageSource.m_78260_(LevelStorageSource.java:292) ~[server-1.19.2-20220805.130853-srg.jar%23283!/:?]
-	at net.minecraft.server.Main.main(Main.java:130) ~[server-1.19.2-20220805.130853-srg.jar%23283!/:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19.2-43.4.2.jar%2367!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2354!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2354!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2354!/:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2354!/:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2354!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2354!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2354!/:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+[23Feb2025 00:50:29.841] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.4.2, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, nogui]
+[23Feb2025 00:50:29.845] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.13 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
+[23Feb2025 00:50:30.547] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Neroland/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[23Feb2025 00:50:31.042] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Neroland/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.2-43.4.2/fmlcore-1.19.2-43.4.2.jar is missing mods.toml file
+[23Feb2025 00:50:31.044] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Neroland/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.4.2/javafmllanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[23Feb2025 00:50:31.046] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Neroland/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.4.2/lowcodelanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[23Feb2025 00:50:31.047] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Neroland/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.2-43.4.2/mclanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[23Feb2025 00:50:31.263] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[23Feb2025 00:50:31.265] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: curios. Using Mod File: /workspaces/Neroland/servidor_minecraft/mods/curios-forge-1.19.2-5.1.6.4.jar
+[23Feb2025 00:50:31.265] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 9 dependencies adding them to mods collection
+[23Feb2025 00:50:31.404] [main/ERROR] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Unsupported installed optional dependencies:
+	Mod ID: 'curios', Requested by: 'quark', Expected range: '[5.6.1,)', Actual version: '1.19.2-5.1.6.4'
+[23Feb2025 00:50:33.633] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[23Feb2025 00:50:33.697] [main/ERROR] [mixin/]: Mixin config justhammers.mixins.json does not specify "minVersion" property
+[23Feb2025 00:50:33.830] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[23Feb2025 00:50:33.831] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [tictim.paraglider.MixinConnector]
+[23Feb2025 00:50:33.833] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[23Feb2025 00:50:34.179] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/vanilla.xml
+[23Feb2025 00:50:34.183] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/sophisticated_core.xml
+[23Feb2025 00:50:34.184] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/refinedstorage.xml
+[23Feb2025 00:50:34.185] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/mekanism.xml
+[23Feb2025 00:50:34.188] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/ironfurnaces.xml
+[23Feb2025 00:50:34.188] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/ic2.xml
+[23Feb2025 00:50:34.189] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/computercraft.xml
+[23Feb2025 00:50:34.191] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/assortedstorage.xml
+[23Feb2025 00:50:34.258] [main/WARN] [mixin/]: Reference map 'justhammers-forge-forge-refmap.json' for justhammers.mixins.json could not be read. If this is a development environment you can ignore this message
+[23Feb2025 00:50:34.261] [main/WARN] [mixin/]: Reference map 'mysticaloaktree-common-refmap.json' for mysticaloaktree-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[23Feb2025 00:50:34.262] [main/WARN] [mixin/]: Reference map 'mysticaloaktree-forge-refmap.json' for mysticaloaktree.mixins.json could not be read. If this is a development environment you can ignore this message
+[23Feb2025 00:50:34.283] [main/WARN] [mixin/]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
+[23Feb2025 00:50:34.350] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[23Feb2025 00:50:34.833] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/TomatoVineBlock (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.TomatoVineBlock)
+[23Feb2025 00:50:34.833] [main/WARN] [mixin/]: @Mixin target vectorwing.farmersdelight.common.block.TomatoVineBlock was not found supplementaries.mixins.json:CompatFarmersDelightMixin
+[23Feb2025 00:50:35.118] [main/WARN] [mixin/]: Error loading class: net/minecraft/world/item/armortrim/ArmorTrim (java.lang.ClassNotFoundException: net.minecraft.world.item.armortrim.ArmorTrim)
+[23Feb2025 00:50:35.119] [main/WARN] [mixin/]: @Mixin target net.minecraft.world.item.armortrim.ArmorTrim was not found quark.mixins.json:ArmorTrimMixin
+[23Feb2025 00:50:35.128] [main/WARN] [mixin/]: Error loading class: net/minecraft/world/level/block/CeilingHangingSignBlock (java.lang.ClassNotFoundException: net.minecraft.world.level.block.CeilingHangingSignBlock)
+[23Feb2025 00:50:35.129] [main/WARN] [mixin/]: @Mixin target net.minecraft.world.level.block.CeilingHangingSignBlock was not found quark.mixins.json:CeilingHangingSignBlockMixin
+[23Feb2025 00:50:35.133] [main/WARN] [mixin/]: Error loading class: net/minecraft/world/item/CreativeModeTabs (java.lang.ClassNotFoundException: net.minecraft.world.item.CreativeModeTabs)
+[23Feb2025 00:50:35.133] [main/WARN] [mixin/]: @Mixin target net.minecraft.world.item.CreativeModeTabs was not found quark.mixins.json:CreativeModeTabsMixin
+[23Feb2025 00:50:35.134] [main/WARN] [mixin/]: Error loading class: net/minecraft/world/damagesource/DamageSources (java.lang.ClassNotFoundException: net.minecraft.world.damagesource.DamageSources)
+[23Feb2025 00:50:35.134] [main/WARN] [mixin/]: @Mixin target net.minecraft.world.damagesource.DamageSources was not found quark.mixins.json:DamageSourcesMixin
+[23Feb2025 00:50:35.155] [main/WARN] [mixin/]: Error loading class: net/minecraft/server/advancements/AdvancementVisibilityEvaluator (java.lang.ClassNotFoundException: net.minecraft.server.advancements.AdvancementVisibilityEvaluator)
+[23Feb2025 00:50:35.155] [main/WARN] [mixin/]: @Mixin target net.minecraft.server.advancements.AdvancementVisibilityEvaluator was not found quark.mixins.json:PlayerAdvancementsMixin
+[23Feb2025 00:50:35.157] [main/WARN] [mixin/]: Error loading class: net/minecraft/core/RegistrySetBuilder$BuildState (java.lang.ClassNotFoundException: net.minecraft.core.RegistrySetBuilder$BuildState)
+[23Feb2025 00:50:35.158] [main/WARN] [mixin/]: @Mixin target net.minecraft.core.RegistrySetBuilder$BuildState was not found quark.mixins.json:RegistrySetBuilderHackMixin
+[23Feb2025 00:50:35.177] [main/WARN] [mixin/]: Error loading class: noobanidus/mods/lootr/config/ConfigManager (java.lang.ClassNotFoundException: noobanidus.mods.lootr.config.ConfigManager)
+[23Feb2025 00:50:35.193] [main/WARN] [mixin/]: Error loading class: net/minecraft/resources/RegistryDataLoader (java.lang.ClassNotFoundException: net.minecraft.resources.RegistryDataLoader)
+[23Feb2025 00:50:35.194] [main/WARN] [mixin/]: @Mixin target net.minecraft.resources.RegistryDataLoader was not found zeta.mixins.json:RegistryDataLoaderMixin
+[23Feb2025 00:50:35.340] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
