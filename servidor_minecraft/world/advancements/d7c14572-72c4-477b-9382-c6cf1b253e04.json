@@ -1031,6 +1031,12 @@
     },
     "done": true
   },
+  "travelersbackpack:recipes/travelersbackpack/end": {
+    "criteria": {
+      "has_ender_eye": "2025-03-08 23:22:54 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/spartanweaponry.basic/golden_scythe": {
     "criteria": {
       "has_gold_ingot": "2024-12-04 03:39:42 +0000"
@@ -1076,6 +1082,12 @@
   "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2024-12-17 03:36:38 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/stolen_magic": {
+    "criteria": {
+      "coded_trigger": "2025-03-08 23:28:23 +0000"
     },
     "done": true
   },
@@ -1545,6 +1557,12 @@
   "spartanweaponry:recipes/spartanweaponry.arrows_bolts/copper_arrow": {
     "criteria": {
       "has_feather": "2024-12-04 02:03:19 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/protecto": {
+    "criteria": {
+      "has_ender_eye": "2025-03-08 23:22:54 +0000"
     },
     "done": true
   },
@@ -2198,6 +2216,12 @@
   "minecraft:story/enter_the_nether": {
     "criteria": {
       "entered_nether": "2024-12-10 04:02:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2025-03-08 23:22:54 +0000"
     },
     "done": true
   },
@@ -3489,6 +3513,7 @@
       "fir_clearing": "2024-12-08 03:25:08 +0000",
       "pumpkin_patch": "2024-12-06 03:34:56 +0000",
       "grassland": "2024-12-02 02:58:39 +0000",
+      "glowing_grotto": "2025-03-08 23:41:17 +0000",
       "undergrowth": "2024-12-17 04:03:15 +0000"
     },
     "done": false
@@ -3814,6 +3839,12 @@
   "securitycraft:recipes/securitycraft/universal_block_modifier": {
     "criteria": {
       "has_redstone": "2024-12-04 02:58:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold_betterstrongholds": "2025-03-08 23:41:45 +0000"
     },
     "done": true
   },
@@ -4323,6 +4354,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:old_growth_pine_taiga": "2025-03-08 23:36:05 +0000",
       "minecraft:taiga": "2024-12-08 03:38:13 +0000",
       "minecraft:sunflower_plains": "2024-12-06 04:31:26 +0000",
       "minecraft:birch_forest": "2024-12-06 03:30:01 +0000",
@@ -4332,6 +4364,7 @@
       "minecraft:stony_shore": "2024-12-06 04:25:09 +0000",
       "minecraft:cold_ocean": "2024-12-06 03:46:26 +0000",
       "minecraft:forest": "2024-12-02 03:28:03 +0000",
+      "minecraft:lush_caves": "2025-03-08 23:40:50 +0000",
       "minecraft:ocean": "2025-02-12 03:26:26 +0000",
       "minecraft:old_growth_birch_forest": "2024-12-02 03:27:51 +0000",
       "minecraft:plains": "2024-12-06 03:28:55 +0000"
@@ -5192,6 +5225,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2025-03-08 23:22:54 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/dark_oak_sign": {
     "criteria": {
       "has_planks": "2024-12-02 02:47:04 +0000"
@@ -5645,6 +5684,12 @@
   "minecraft:recipes/building_blocks/polished_basalt": {
     "criteria": {
       "has_basalt": "2024-12-17 03:36:01 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/tigers_blessing": {
+    "criteria": {
+      "all_effects": "2025-03-08 23:38:26 +0000"
     },
     "done": true
   },

@@ -1,0 +1,277 @@
+---- Minecraft Crash Report ----
+// Why is it breaking :(
+
+Time: 2025-03-08 23:28:37
+Description: Ticking entity
+
+java.lang.StringIndexOutOfBoundsException: begin 17, end 16, length 16
+	at java.lang.String.checkBoundsBeginEnd(String.java:4606) ~[?:?] {re:mixin}
+	at java.lang.String.substring(String.java:2709) ~[?:?] {re:mixin}
+	at java.lang.String.substring(String.java:2682) ~[?:?] {re:mixin}
+	at com.lgow.endofherobrine.config.ConfigHandler.shouldPreventPossession(ConfigHandler.java:201) ~[endofherobrine-1.19.2-1.0.8.2.jar%23232!/:1.19.2-1.0.8.2] {re:classloading}
+	at com.lgow.endofherobrine.util.ModUtil.possessMob(ModUtil.java:60) ~[endofherobrine-1.19.2-1.0.8.2.jar%23232!/:1.19.2-1.0.8.2] {re:classloading}
+	at com.lgow.endofherobrine.event.PossessionEvents.onMobHurt(PossessionEvents.java:27) ~[endofherobrine-1.19.2-1.0.8.2.jar%23232!/:1.19.2-1.0.8.2] {re:classloading}
+	at com.lgow.endofherobrine.event.__PossessionEvents_onMobHurt_LivingHurtEvent.invoke(.dynamic) ~[endofherobrine-1.19.2-1.0.8.2.jar%23232!/:1.19.2-1.0.8.2] {re:classloading,pl:eventbus:B}
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.3.jar%2351!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.3.jar%2351!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.3.jar%2351!/:?] {}
+	at net.minecraftforge.common.ForgeHooks.onLivingHurt(ForgeHooks.java:343) ~[forge-1.19.2-43.4.2-universal.jar%23294!/:?] {re:mixin,re:classloading,pl:mixin:APP:tombstone.mixins.json:ForgeHooksMixin,pl:mixin:A}
+	at net.minecraft.world.entity.LivingEntity.m_6475_(LivingEntity.java:1578) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.world.entity.LivingEntity.m_6469_(LivingEntity.java:1073) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.world.entity.monster.Zombie.m_6469_(Zombie.java:266) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,re:classloading,pl:mixin:APP:tombstone.mixins.json:ZombieMixin,pl:mixin:APP:spartanweaponry.mixins.json:ZombieMixin,pl:mixin:A}
+	at net.minecraft.world.entity.Entity.m_6075_(Entity.java:454) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:cupboard.mixins.json:EntityLoadMixin,pl:mixin:APP:aether.mixins.json:common.EntityMixin,pl:mixin:APP:aether.mixins.json:common.accessor.EntityAccessor,pl:mixin:APP:bookshelf.common.mixins.json:entity.AccessorEntity,pl:mixin:APP:carryon.mixins.json:EntityMixin,pl:mixin:APP:supplementaries-common.mixins.json:EntityMixin,pl:mixin:APP:curios.mixins.json:AccessorEntity,pl:mixin:APP:tombstone.mixins.json:EntityMixin,pl:mixin:APP:spartanweaponry.mixins.json:EntityMixin,pl:mixin:APP:endergetic.mixins.json:EntityMixin,pl:mixin:APP:blueprint.mixins.json:EntityMixin,pl:mixin:APP:sound_physics_remastered.mixins.json:EntityMixin,pl:mixin:A}
+	at net.minecraft.world.entity.LivingEntity.m_6075_(LivingEntity.java:324) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.world.entity.Mob.m_6075_(Mob.java:252) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:bookshelf.common.mixins.json:entity.AccessorMob,pl:mixin:APP:tombstone.mixins.json:MobMixin,pl:mixin:APP:spartanweaponry.mixins.json:MobMixin,pl:mixin:APP:endergetic.mixins.json:MobMixin,pl:mixin:APP:moonlight-common.mixins.json:EntityMixin,pl:mixin:A}
+	at net.minecraft.world.entity.Entity.m_8119_(Entity.java:417) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:cupboard.mixins.json:EntityLoadMixin,pl:mixin:APP:aether.mixins.json:common.EntityMixin,pl:mixin:APP:aether.mixins.json:common.accessor.EntityAccessor,pl:mixin:APP:bookshelf.common.mixins.json:entity.AccessorEntity,pl:mixin:APP:carryon.mixins.json:EntityMixin,pl:mixin:APP:supplementaries-common.mixins.json:EntityMixin,pl:mixin:APP:curios.mixins.json:AccessorEntity,pl:mixin:APP:tombstone.mixins.json:EntityMixin,pl:mixin:APP:spartanweaponry.mixins.json:EntityMixin,pl:mixin:APP:endergetic.mixins.json:EntityMixin,pl:mixin:APP:blueprint.mixins.json:EntityMixin,pl:mixin:APP:sound_physics_remastered.mixins.json:EntityMixin,pl:mixin:A}
+	at net.minecraft.world.entity.LivingEntity.m_8119_(LivingEntity.java:2252) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.world.entity.Mob.m_8119_(Mob.java:318) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:bookshelf.common.mixins.json:entity.AccessorMob,pl:mixin:APP:tombstone.mixins.json:MobMixin,pl:mixin:APP:spartanweaponry.mixins.json:MobMixin,pl:mixin:APP:endergetic.mixins.json:MobMixin,pl:mixin:APP:moonlight-common.mixins.json:EntityMixin,pl:mixin:A}
+	at net.minecraft.world.entity.monster.Zombie.m_8119_(Zombie.java:209) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,re:classloading,pl:mixin:APP:tombstone.mixins.json:ZombieMixin,pl:mixin:APP:spartanweaponry.mixins.json:ZombieMixin,pl:mixin:A}
+	at net.minecraft.server.level.ServerLevel.m_8647_(ServerLevel.java:658) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:cupboard.mixins.json:ServerAddEntityMixin,pl:mixin:APP:betterendisland.mixins.json:ServerLevelMixin,pl:mixin:APP:aether.mixins.json:common.accessor.ServerLevelAccessor,pl:mixin:APP:citadel.mixins.json:ServerLevelMixin,pl:mixin:APP:supplementaries-common.mixins.json:ServerLevelMixin,pl:mixin:APP:endergetic.mixins.json:ServerLevelMixin,pl:mixin:APP:betterdeserttemples.mixins.json:ServerLevelMixin,pl:mixin:APP:blueprint.mixins.json:ServerLevelMixin,pl:mixin:APP:sound_physics_remastered.mixins.json:ServerWorldMixin,pl:mixin:APP:betterendisland.mixins.json:EndergeticExpansionMixins,pl:mixin:A}
+	at net.minecraft.world.level.Level.m_46653_(Level.java:457) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:aether.mixins.json:common.accessor.LevelAccessor,pl:mixin:APP:citadel.mixins.json:LevelMixin,pl:mixin:A}
+	at net.minecraft.server.level.ServerLevel.m_184063_(ServerLevel.java:323) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:cupboard.mixins.json:ServerAddEntityMixin,pl:mixin:APP:betterendisland.mixins.json:ServerLevelMixin,pl:mixin:APP:aether.mixins.json:common.accessor.ServerLevelAccessor,pl:mixin:APP:citadel.mixins.json:ServerLevelMixin,pl:mixin:APP:supplementaries-common.mixins.json:ServerLevelMixin,pl:mixin:APP:endergetic.mixins.json:ServerLevelMixin,pl:mixin:APP:betterdeserttemples.mixins.json:ServerLevelMixin,pl:mixin:APP:blueprint.mixins.json:ServerLevelMixin,pl:mixin:APP:sound_physics_remastered.mixins.json:ServerWorldMixin,pl:mixin:APP:betterendisland.mixins.json:EndergeticExpansionMixins,pl:mixin:A}
+	at net.minecraft.world.level.entity.EntityTickList.m_156910_(EntityTickList.java:54) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,re:classloading}
+	at net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:303) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:cupboard.mixins.json:ServerAddEntityMixin,pl:mixin:APP:betterendisland.mixins.json:ServerLevelMixin,pl:mixin:APP:aether.mixins.json:common.accessor.ServerLevelAccessor,pl:mixin:APP:citadel.mixins.json:ServerLevelMixin,pl:mixin:APP:supplementaries-common.mixins.json:ServerLevelMixin,pl:mixin:APP:endergetic.mixins.json:ServerLevelMixin,pl:mixin:APP:betterdeserttemples.mixins.json:ServerLevelMixin,pl:mixin:APP:blueprint.mixins.json:ServerLevelMixin,pl:mixin:APP:sound_physics_remastered.mixins.json:ServerWorldMixin,pl:mixin:APP:betterendisland.mixins.json:EndergeticExpansionMixins,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:866) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:292) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:blueprint.mixins.json:DedicatedServerMixin,pl:mixin:APP:tombstone.mixins.json:DedicatedServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:806) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:654) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:244) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Suspected Mod: 
+	The End of Herobrine (endofherobrine), Version: 1.19.2-1.0.8.2
+		Issue tracker URL: https://github.com/lgow/endofherobrine/issues/
+		at TRANSFORMER/endofherobrine@1.19.2-1.0.8.2/com.lgow.endofherobrine.config.ConfigHandler.shouldPreventPossession(ConfigHandler.java:201)
+Stacktrace:
+	at java.lang.String.checkBoundsBeginEnd(String.java:4606) ~[?:?] {re:mixin}
+	at java.lang.String.substring(String.java:2709) ~[?:?] {re:mixin}
+	at java.lang.String.substring(String.java:2682) ~[?:?] {re:mixin}
+	at com.lgow.endofherobrine.config.ConfigHandler.shouldPreventPossession(ConfigHandler.java:201) ~[endofherobrine-1.19.2-1.0.8.2.jar%23232!/:1.19.2-1.0.8.2] {re:classloading}
+	at com.lgow.endofherobrine.util.ModUtil.possessMob(ModUtil.java:60) ~[endofherobrine-1.19.2-1.0.8.2.jar%23232!/:1.19.2-1.0.8.2] {re:classloading}
+	at com.lgow.endofherobrine.event.PossessionEvents.onMobHurt(PossessionEvents.java:27) ~[endofherobrine-1.19.2-1.0.8.2.jar%23232!/:1.19.2-1.0.8.2] {re:classloading}
+	at com.lgow.endofherobrine.event.__PossessionEvents_onMobHurt_LivingHurtEvent.invoke(.dynamic) ~[endofherobrine-1.19.2-1.0.8.2.jar%23232!/:1.19.2-1.0.8.2] {re:classloading,pl:eventbus:B}
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.3.jar%2351!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.3.jar%2351!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.3.jar%2351!/:?] {}
+	at net.minecraftforge.common.ForgeHooks.onLivingHurt(ForgeHooks.java:343) ~[forge-1.19.2-43.4.2-universal.jar%23294!/:?] {re:mixin,re:classloading,pl:mixin:APP:tombstone.mixins.json:ForgeHooksMixin,pl:mixin:A}
+	at net.minecraft.world.entity.LivingEntity.m_6475_(LivingEntity.java:1578) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.world.entity.LivingEntity.m_6469_(LivingEntity.java:1073) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.world.entity.monster.Zombie.m_6469_(Zombie.java:266) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,re:classloading,pl:mixin:APP:tombstone.mixins.json:ZombieMixin,pl:mixin:APP:spartanweaponry.mixins.json:ZombieMixin,pl:mixin:A}
+	at net.minecraft.world.entity.Entity.m_6075_(Entity.java:454) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:cupboard.mixins.json:EntityLoadMixin,pl:mixin:APP:aether.mixins.json:common.EntityMixin,pl:mixin:APP:aether.mixins.json:common.accessor.EntityAccessor,pl:mixin:APP:bookshelf.common.mixins.json:entity.AccessorEntity,pl:mixin:APP:carryon.mixins.json:EntityMixin,pl:mixin:APP:supplementaries-common.mixins.json:EntityMixin,pl:mixin:APP:curios.mixins.json:AccessorEntity,pl:mixin:APP:tombstone.mixins.json:EntityMixin,pl:mixin:APP:spartanweaponry.mixins.json:EntityMixin,pl:mixin:APP:endergetic.mixins.json:EntityMixin,pl:mixin:APP:blueprint.mixins.json:EntityMixin,pl:mixin:APP:sound_physics_remastered.mixins.json:EntityMixin,pl:mixin:A}
+	at net.minecraft.world.entity.LivingEntity.m_6075_(LivingEntity.java:324) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.world.entity.Mob.m_6075_(Mob.java:252) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:bookshelf.common.mixins.json:entity.AccessorMob,pl:mixin:APP:tombstone.mixins.json:MobMixin,pl:mixin:APP:spartanweaponry.mixins.json:MobMixin,pl:mixin:APP:endergetic.mixins.json:MobMixin,pl:mixin:APP:moonlight-common.mixins.json:EntityMixin,pl:mixin:A}
+	at net.minecraft.world.entity.Entity.m_8119_(Entity.java:417) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:cupboard.mixins.json:EntityLoadMixin,pl:mixin:APP:aether.mixins.json:common.EntityMixin,pl:mixin:APP:aether.mixins.json:common.accessor.EntityAccessor,pl:mixin:APP:bookshelf.common.mixins.json:entity.AccessorEntity,pl:mixin:APP:carryon.mixins.json:EntityMixin,pl:mixin:APP:supplementaries-common.mixins.json:EntityMixin,pl:mixin:APP:curios.mixins.json:AccessorEntity,pl:mixin:APP:tombstone.mixins.json:EntityMixin,pl:mixin:APP:spartanweaponry.mixins.json:EntityMixin,pl:mixin:APP:endergetic.mixins.json:EntityMixin,pl:mixin:APP:blueprint.mixins.json:EntityMixin,pl:mixin:APP:sound_physics_remastered.mixins.json:EntityMixin,pl:mixin:A}
+	at net.minecraft.world.entity.LivingEntity.m_8119_(LivingEntity.java:2252) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.world.entity.Mob.m_8119_(Mob.java:318) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:bookshelf.common.mixins.json:entity.AccessorMob,pl:mixin:APP:tombstone.mixins.json:MobMixin,pl:mixin:APP:spartanweaponry.mixins.json:MobMixin,pl:mixin:APP:endergetic.mixins.json:MobMixin,pl:mixin:APP:moonlight-common.mixins.json:EntityMixin,pl:mixin:A}
+	at net.minecraft.world.entity.monster.Zombie.m_8119_(Zombie.java:209) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,re:classloading,pl:mixin:APP:tombstone.mixins.json:ZombieMixin,pl:mixin:APP:spartanweaponry.mixins.json:ZombieMixin,pl:mixin:A}
+	at net.minecraft.server.level.ServerLevel.m_8647_(ServerLevel.java:658) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:cupboard.mixins.json:ServerAddEntityMixin,pl:mixin:APP:betterendisland.mixins.json:ServerLevelMixin,pl:mixin:APP:aether.mixins.json:common.accessor.ServerLevelAccessor,pl:mixin:APP:citadel.mixins.json:ServerLevelMixin,pl:mixin:APP:supplementaries-common.mixins.json:ServerLevelMixin,pl:mixin:APP:endergetic.mixins.json:ServerLevelMixin,pl:mixin:APP:betterdeserttemples.mixins.json:ServerLevelMixin,pl:mixin:APP:blueprint.mixins.json:ServerLevelMixin,pl:mixin:APP:sound_physics_remastered.mixins.json:ServerWorldMixin,pl:mixin:APP:betterendisland.mixins.json:EndergeticExpansionMixins,pl:mixin:A}
+	at net.minecraft.world.level.Level.m_46653_(Level.java:457) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:aether.mixins.json:common.accessor.LevelAccessor,pl:mixin:APP:citadel.mixins.json:LevelMixin,pl:mixin:A}
+	at net.minecraft.server.level.ServerLevel.m_184063_(ServerLevel.java:323) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:cupboard.mixins.json:ServerAddEntityMixin,pl:mixin:APP:betterendisland.mixins.json:ServerLevelMixin,pl:mixin:APP:aether.mixins.json:common.accessor.ServerLevelAccessor,pl:mixin:APP:citadel.mixins.json:ServerLevelMixin,pl:mixin:APP:supplementaries-common.mixins.json:ServerLevelMixin,pl:mixin:APP:endergetic.mixins.json:ServerLevelMixin,pl:mixin:APP:betterdeserttemples.mixins.json:ServerLevelMixin,pl:mixin:APP:blueprint.mixins.json:ServerLevelMixin,pl:mixin:APP:sound_physics_remastered.mixins.json:ServerWorldMixin,pl:mixin:APP:betterendisland.mixins.json:EndergeticExpansionMixins,pl:mixin:A}
+	at net.minecraft.world.level.entity.EntityTickList.m_156910_(EntityTickList.java:54) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,re:classloading}
+	at net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:303) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:cupboard.mixins.json:ServerAddEntityMixin,pl:mixin:APP:betterendisland.mixins.json:ServerLevelMixin,pl:mixin:APP:aether.mixins.json:common.accessor.ServerLevelAccessor,pl:mixin:APP:citadel.mixins.json:ServerLevelMixin,pl:mixin:APP:supplementaries-common.mixins.json:ServerLevelMixin,pl:mixin:APP:endergetic.mixins.json:ServerLevelMixin,pl:mixin:APP:betterdeserttemples.mixins.json:ServerLevelMixin,pl:mixin:APP:blueprint.mixins.json:ServerLevelMixin,pl:mixin:APP:sound_physics_remastered.mixins.json:ServerWorldMixin,pl:mixin:APP:betterendisland.mixins.json:EndergeticExpansionMixins,pl:mixin:A}
+-- Entity being ticked --
+Details:
+	Entity Type: jeg:ghoul (ttv.migami.jeg.entity.monster.Ghoul)
+	Entity ID: 42727
+	Entity Name: Ghoul
+	Entity's Exact location: -2461.53, 50.00, 404.62
+	Entity's Block location: World: (-2462,50,404), Section: (at 2,2,4 in -154,3,25; chunk contains blocks -2464,-64,400 to -2449,319,415), Region: (-5,0; contains chunks -160,0 to -129,31, blocks -2560,-64,0 to -2049,319,511)
+	Entity's Momentum: 0.00, -0.08, -0.03
+	Entity's Passengers: []
+	Entity's Vehicle: null
+Stacktrace:
+	at net.minecraft.world.level.Level.m_46653_(Level.java:457) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:aether.mixins.json:common.accessor.LevelAccessor,pl:mixin:APP:citadel.mixins.json:LevelMixin,pl:mixin:A}
+	at net.minecraft.server.level.ServerLevel.m_184063_(ServerLevel.java:323) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:cupboard.mixins.json:ServerAddEntityMixin,pl:mixin:APP:betterendisland.mixins.json:ServerLevelMixin,pl:mixin:APP:aether.mixins.json:common.accessor.ServerLevelAccessor,pl:mixin:APP:citadel.mixins.json:ServerLevelMixin,pl:mixin:APP:supplementaries-common.mixins.json:ServerLevelMixin,pl:mixin:APP:endergetic.mixins.json:ServerLevelMixin,pl:mixin:APP:betterdeserttemples.mixins.json:ServerLevelMixin,pl:mixin:APP:blueprint.mixins.json:ServerLevelMixin,pl:mixin:APP:sound_physics_remastered.mixins.json:ServerWorldMixin,pl:mixin:APP:betterendisland.mixins.json:EndergeticExpansionMixins,pl:mixin:A}
+	at net.minecraft.world.level.entity.EntityTickList.m_156910_(EntityTickList.java:54) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,re:classloading}
+	at net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:303) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:cupboard.mixins.json:ServerAddEntityMixin,pl:mixin:APP:betterendisland.mixins.json:ServerLevelMixin,pl:mixin:APP:aether.mixins.json:common.accessor.ServerLevelAccessor,pl:mixin:APP:citadel.mixins.json:ServerLevelMixin,pl:mixin:APP:supplementaries-common.mixins.json:ServerLevelMixin,pl:mixin:APP:endergetic.mixins.json:ServerLevelMixin,pl:mixin:APP:betterdeserttemples.mixins.json:ServerLevelMixin,pl:mixin:APP:blueprint.mixins.json:ServerLevelMixin,pl:mixin:APP:sound_physics_remastered.mixins.json:ServerWorldMixin,pl:mixin:APP:betterendisland.mixins.json:EndergeticExpansionMixins,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:866) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:292) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:blueprint.mixins.json:DedicatedServerMixin,pl:mixin:APP:tombstone.mixins.json:DedicatedServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:806) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:654) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:244) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin}
+
+
+-- Affected level --
+Details:
+	All players: 2 total; [ServerPlayer['Roxanne711'/752, l='ServerLevel[neroland]', x=-2460.18, y=52.00, z=402.41], ServerPlayer['Jesus4448'/2549, l='ServerLevel[neroland]', x=-2467.96, y=54.00, z=389.26]]
+	Chunk stats: 5548
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (-544,72,-112), Section: (at 0,8,0 in -34,4,-7; chunk contains blocks -544,-64,-112 to -529,319,-97), Region: (-2,-1; contains chunks -64,-32 to -33,-1, blocks -1024,-64,-512 to -513,319,-1)
+	Level time: 1430285 game time, 58411 day time
+	Level name: neroland
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: true
+	Level weather: Rain time: 53512 (now: false), thunder time: 158701 (now: false)
+	Known server brands: forge
+	Level was modded: true
+	Level storage version: 0x04ABD - Anvil
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:866) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:292) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:blueprint.mixins.json:DedicatedServerMixin,pl:mixin:APP:tombstone.mixins.json:DedicatedServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:806) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:654) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:244) ~[server-1.19.2-20220805.130853-srg.jar%23289!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at java.lang.Thread.run(Thread.java:840) [?:?] {re:mixin}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.19.2
+	Minecraft Version ID: 1.19.2
+	Operating System: Linux (amd64) version 6.5.0-1025-azure
+	Java Version: 17.0.13, Ubuntu
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Ubuntu
+	Memory: 6107906512 bytes (5824 MiB) / 9294577664 bytes (8864 MiB) up to 17179869184 bytes (16384 MiB)
+	CPUs: 4
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD EPYC 7763 64-Core Processor
+	Identifier: AuthenticAMD Family 25 Model 1 Stepping 1
+	Microarchitecture: Zen 3
+	Frequency (GHz): -0.00
+	Number of physical packages: 1
+	Number of physical CPUs: 2
+	Number of logical CPUs: 4
+	Graphics card #0 name: unknown
+	Graphics card #0 vendor: unknown
+	Graphics card #0 VRAM (MB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MB): 7990.52
+	Virtual memory used (MB): 10349.60
+	Swap memory total (MB): 0.00
+	Swap memory used (MB): 0.00
+	JVM Flags: 2 total; -Xms2G -Xmx16G
+	Server Running: true
+	Player Count: 2 / 2; [ServerPlayer['Roxanne711'/752, l='ServerLevel[neroland]', x=-2460.18, y=52.00, z=402.41], ServerPlayer['Jesus4448'/2549, l='ServerLevel[neroland]', x=-2467.96, y=54.00, z=389.26]]
+	Data Packs: vanilla, mod:betterdungeons, mod:betterwitchhuts, mod:aether (incompatible), mod:betteroceanmonuments, mod:dynamiclights (incompatible), mod:reap (incompatible), mod:clumps (incompatible), mod:journeymap (incompatible), mod:jei (incompatible), mod:citadel, mod:alexsmobs (incompatible), mod:travelersbackpack, mod:yungsapi, mod:mixinextras (incompatible), mod:bookshelf (incompatible), mod:snuffles (incompatible), mod:fastconfigapi (incompatible), mod:betterdeserttemples, mod:fusion (incompatible), mod:carryon (incompatible), mod:biggerstacks (incompatible), mod:betterfortresses, mod:cloth_config (incompatible), mod:sound_physics_remastered (incompatible), mod:forge, mod:twilightforest (incompatible), mod:konkrete (incompatible), mod:dungeons_arise, mod:enchdesc (incompatible), mod:terrablender, mod:moonlight (incompatible), mod:biomesoplenty, mod:creativecore, mod:watching (incompatible), mod:supermartijn642corelib (incompatible), mod:notenoughanimations (incompatible), mod:curios, mod:man, mod:gravestone (incompatible), mod:securitycraft, mod:elevatorid (incompatible), mod:betterstrongholds, mod:cumulus_menus, mod:architectury (incompatible), mod:justhammers (incompatible), mod:connectedglass (incompatible), mod:cupboard (incompatible), mod:betterendisland (incompatible), mod:betterf3 (incompatible), mod:nitrogen_internals, mod:fallingtree, mod:t_and_t, mod:bettermineshafts, mod:playerrevive, mod:geckolib3 (incompatible), mod:cave_dweller, mod:crafting_on_a_stick (incompatible), mod:betterjungletemples, mod:jeg (incompatible), mod:blueprint (incompatible), mod:jade (incompatible), mod:personality (incompatible), mod:spartanshields, mod:diagonalfences, mod:tombstone, mod:spartanweaponry, mod:labellingcontainers (incompatible), mod:appleskin, mod:puzzleslib (incompatible), mod:framework (incompatible), mod:cosmeticarmorreworked (incompatible), mod:easyanvils (incompatible), mod:supplementaries (incompatible), mod:torchmaster (incompatible), mod:easymagic (incompatible), Supplementaries Generated Pack, mod:balm (incompatible), mod:collective, mod:doubledoors, mod:trashslot (incompatible), mod:visualworkbench (incompatible), mod:better_totem_of_undying, mod:mousetweaks, mod:inventoryhud, mod:coroutil (incompatible), mod:charmofundying, mod:endertrigon, mod:born_in_chaos_v1, mod:graveyard (incompatible), mod:skyfall, mod:mysticaloaktree (incompatible), mod:reds_morestructures_mr (incompatible), mod:paraglider, mod:enchantinginfuser (incompatible), mod:caelus (incompatible), mod:endergetic (incompatible), mod:endofherobrine (incompatible), mod:siren_head, mod:the_one_who_watches, mod:goatman
+	World Generation: Stable
+	Is Modded: Definitely; Server brand changed to 'forge'
+	Type: Dedicated Server (map_server.txt)
+	ModLauncher: 10.0.8+10.0.8+main.0ef7e830
+	ModLauncher launch target: forgeserver
+	ModLauncher naming: srg
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.3.jar eventbus PLUGINSERVICE 
+		fmlloader-1.19.2-43.4.2.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.19.2-43.4.2.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.19.2-43.4.2.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.19.2-43.4.2.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.19.2-43.4.2.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.8.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.8.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		YungsBetterDungeons-1.19.2-Forge-3.2.2.jar        |YUNG's Better Dungeons        |betterdungeons                |1.19.2-Forge-3.2.2  |DONE      |Manifest: NOSIGNATURE
+		EasyAnvils-v4.0.11-1.19.2-Forge.jar               |Easy Anvils                   |easyanvils                    |4.0.11              |DONE      |Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		YungsBetterWitchHuts-1.19.2-Forge-2.1.0.jar       |YUNG's Better Witch Huts      |betterwitchhuts               |1.19.2-Forge-2.1.0  |DONE      |Manifest: NOSIGNATURE
+		aether-1.19.2-1.5.1-forge.jar                     |The Aether                    |aether                        |1.19.2-1.5.1-forge  |DONE      |Manifest: NOSIGNATURE
+		Siren_Head_v1.2.7-1.19.2-Requires_Geckolib.jar    |Siren Head                    |siren_head                    |1.2.7               |DONE      |Manifest: NOSIGNATURE
+		YungsBetterOceanMonuments-1.19.2-Forge-2.1.1.jar  |YUNG's Better Ocean Monuments |betteroceanmonuments          |1.19.2-Forge-2.1.1  |DONE      |Manifest: NOSIGNATURE
+		dynamiclights-1.19.2.2.jar                        |Dynamic Lights                |dynamiclights                 |1.19.2.2            |DONE      |Manifest: NOSIGNATURE
+		citadel-2.1.4-1.19.jar                            |Citadel                       |citadel                       |2.1.4               |DONE      |Manifest: NOSIGNATURE
+		alexsmobs-1.21.1.jar                              |Alex's Mobs                   |alexsmobs                     |1.21.1              |DONE      |Manifest: NOSIGNATURE
+		YungsApi-1.19.2-Forge-3.8.10.jar                  |YUNG's API                    |yungsapi                      |1.19.2-Forge-3.8.10 |DONE      |Manifest: NOSIGNATURE
+		mixinextras-forge-0.2.0-beta.9.jar                |MixinExtras                   |mixinextras                   |0.2.0-beta.9        |DONE      |Manifest: NOSIGNATURE
+		Bookshelf-Forge-1.19.2-16.3.20.jar                |Bookshelf                     |bookshelf                     |16.3.20             |DONE      |Manifest: eb:c4:b1:67:8b:f9:0c:db:dc:4f:01:b1:8e:61:64:39:4c:10:85:0b:a6:c4:c7:48:f0:fa:95:f2:cb:08:3a:e5
+		fastconfigapi-1.1.0.jar                           |Fast Config API               |fastconfigapi                 |1.1.0               |DONE      |Manifest: NOSIGNATURE
+		balm-forge-1.19.2-4.6.0.jar                       |Balm                          |balm                          |4.6.0               |DONE      |Manifest: NOSIGNATURE
+		carryon-forge-1.19.2-2.1.2.23.jar                 |Carry On                      |carryon                       |2.1.2.23            |DONE      |Manifest: NOSIGNATURE
+		biggerstacks-1.19.2-3.8.2-all.jar                 |Bigger Stacks                 |biggerstacks                  |1.19.2-3.8.2        |DONE      |Manifest: NOSIGNATURE
+		YungsBetterNetherFortresses-1.19.2-Forge-1.0.6.jar|YUNG's Better Nether Fortresse|betterfortresses              |1.19.2-Forge-1.0.6  |DONE      |Manifest: NOSIGNATURE
+		Paraglider-1.19.2-1.7.0.5.jar                     |Paraglider                    |paraglider                    |1.7.0.5             |DONE      |Manifest: NOSIGNATURE
+		cloth-config-9-forge.jar                          |Cloth Config v8 API           |cloth_config                  |8.3.134             |DONE      |Manifest: NOSIGNATURE
+		sound-physics-remastered-forge-1.19.2-1.4.5.jar   |Sound Physics Remastered      |sound_physics_remastered      |1.19.2-1.4.5        |DONE      |Manifest: NOSIGNATURE
+		twilightforest-1.19.2-4.2.1518-universal.jar      |The Twilight Forest           |twilightforest                |4.2.1518            |DONE      |Manifest: NOSIGNATURE
+		supplementaries-1.19.2-2.4.20.jar                 |Supplementaries               |supplementaries               |1.19.2-2.4.20       |DONE      |Manifest: NOSIGNATURE
+		konkrete_forge_1.8.0_MC_1.19-1.19.2.jar           |Konkrete                      |konkrete                      |1.8.0               |DONE      |Manifest: NOSIGNATURE
+		TheOneWhoWatches-V1.4.3-1.19.2.jar                |The One Who Watches           |the_one_who_watches           |1.4.2               |DONE      |Manifest: NOSIGNATURE
+		torchmaster-19.2.93.jar                           |Torchmaster                   |torchmaster                   |19.2.93             |DONE      |Manifest: NOSIGNATURE
+		supermartijn642corelib-1.1.17a-forge-mc1.19.2.jar |SuperMartijn642's Core Lib    |supermartijn642corelib        |1.1.17+a            |DONE      |Manifest: NOSIGNATURE
+		born_in_chaos_[Forge]1.19.2_1.10.1.jar            |Born in Chaos                 |born_in_chaos_v1              |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		curios-forge-1.19.2-5.1.6.4.jar                   |Curios API                    |curios                        |1.19.2-5.1.6.4      |DONE      |Manifest: NOSIGNATURE
+		The-Man-From-The-Fog-1.3-1.19.2.jar               |The Man From The Fog          |man                           |1.3                 |DONE      |Manifest: NOSIGNATURE
+		collective-1.19.2-7.64.jar                        |Collective                    |collective                    |7.64                |DONE      |Manifest: NOSIGNATURE
+		elevatorid-1.19.2-1.8.10.jar                      |Elevator Mod                  |elevatorid                    |1.19.2-1.8.10       |DONE      |Manifest: NOSIGNATURE
+		YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar     |YUNG's Better Strongholds     |betterstrongholds             |1.19.2-Forge-3.2.0  |DONE      |Manifest: NOSIGNATURE
+		tombstone-1.19.2-8.3.7.jar                        |Corail Tombstone              |tombstone                     |8.3.7               |DONE      |Manifest: NOSIGNATURE
+		cumulus_menus-1.19.2-1.0.0-forge.jar              |Cumulus                       |cumulus_menus                 |1.19.2-1.0.0-forge  |DONE      |Manifest: NOSIGNATURE
+		SpartanWeaponry-1.19.2-3.0.7-all.jar              |Spartan Weaponry              |spartanweaponry               |3.0.7               |DONE      |Manifest: NOSIGNATURE
+		architectury-7-forge.jar                          |Architectury                  |architectury                  |6.6.92              |DONE      |Manifest: NOSIGNATURE
+		justhammers-forge-1.0.0+mc1.19.2.jar              |Just Hammers                  |justhammers                   |1.0.0+mc1.19.2      |DONE      |Manifest: NOSIGNATURE
+		cupboard-1.19.2-2.6.jar                           |Cupboard utilities            |cupboard                      |1.19.2-2.6          |DONE      |Manifest: NOSIGNATURE
+		YungsBetterEndIsland-1.19.2-Forge-1.0.jar         |YUNG's Better End Island      |betterendisland               |1.19.2-Forge-1.0    |DONE      |Manifest: NOSIGNATURE
+		nitrogen_internals-1.19.2-1.0.7-forge.jar         |Nitrogen                      |nitrogen_internals            |1.19.2-1.0.7-forge  |DONE      |Manifest: NOSIGNATURE
+		framework-forge-1.19.2-0.7.12.jar                 |Framework                     |framework                     |0.7.12              |DONE      |Manifest: 0d:78:5f:44:c0:47:0c:8c:e2:63:a3:04:43:d4:12:7d:b0:7c:35:37:dc:40:b1:c1:98:ec:51:eb:3b:3c:45:99
+		FallingTree-1.19.2-3.10.1.jar                     |FallingTree                   |fallingtree                   |3.10.1              |DONE      |Manifest: 3c:8e:df:6c:df:a6:2a:9f:af:64:ea:04:9a:cf:65:92:3b:54:93:0e:96:50:b4:52:e1:13:42:18:2b:ae:40:29
+		Towns-and-Towers-v.1.10-_FORGE-1.19.2_.jar        |Towns and Towers              |t_and_t                       |1.10                |DONE      |Manifest: NOSIGNATURE
+		YungsBetterMineshafts-1.19.2-Forge-3.2.1.jar      |YUNG's Better Mineshafts      |bettermineshafts              |1.19.2-Forge-3.2.1  |DONE      |Manifest: NOSIGNATURE
+		PlayerRevive_FORGE_v2.0.17_mc1.19.2.jar           |PlayerRevive                  |playerrevive                  |2.0.17              |DONE      |Manifest: NOSIGNATURE
+		geckolib-forge-1.19-3.1.40.jar                    |GeckoLib                      |geckolib3                     |3.1.40              |DONE      |Manifest: NOSIGNATURE
+		Cave Dweller Reimagined.jar                       |cave_dweller                  |cave_dweller                  |1.6.4               |DONE      |Manifest: NOSIGNATURE
+		EnchantingInfuser-v4.2.2-1.19.2-Forge.jar         |Enchanting Infuser            |enchantinginfuser             |4.2.2               |DONE      |Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		crafting-on-a-stick-1.19.2-1.1.2.jar              |Crafting On A Stick           |crafting_on_a_stick           |1.1.2               |DONE      |Manifest: NOSIGNATURE
+		YungsBetterJungleTemples-1.19.2-Forge-1.0.1.jar   |YUNG's Better Jungle Temples  |betterjungletemples           |1.19.2-Forge-1.0.1  |DONE      |Manifest: NOSIGNATURE
+		doubledoors-1.19.2-5.7.jar                        |Double Doors                  |doubledoors                   |5.7                 |DONE      |Manifest: NOSIGNATURE
+		trashslot-forge-1.19.2-12.1.0.jar                 |TrashSlot                     |trashslot                     |12.1.0              |DONE      |Manifest: NOSIGNATURE
+		endertrigon-1.0.jar                               |Ender Trigon                  |endertrigon                   |1.0                 |DONE      |Manifest: NOSIGNATURE
+		JustEnoughGuns-0.4.0-1.19.2.jar                   |Just Enough Guns              |jeg                           |0.4.0               |DONE      |Manifest: NOSIGNATURE
+		EasyMagic-v4.3.3-1.19.2-Forge.jar                 |Easy Magic                    |easymagic                     |4.3.3               |DONE      |Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		jei-1.19.2-forge-11.8.1.1034.jar                  |Just Enough Items             |jei                           |11.8.1.1034         |DONE      |Manifest: NOSIGNATURE
+		VisualWorkbench-v4.2.4-1.19.2-Forge.jar           |Visual Workbench              |visualworkbench               |4.2.4               |DONE      |Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		The_Graveyard_2.5.3_(FORGE)_for_1.19.2..jar       |The Graveyard                 |graveyard                     |2.5.3               |DONE      |Manifest: NOSIGNATURE
+		caelus-forge-1.19.2-3.0.0.6.jar                   |Caelus API                    |caelus                        |1.19.2-3.0.0.6      |DONE      |Manifest: NOSIGNATURE
+		reap-forge-1.19.2-1.1.2.jar                       |Reap Mod                      |reap                          |1.19.2-1.1.2        |DONE      |Manifest: NOSIGNATURE
+		Clumps-forge-1.19.2-9.0.0+14.jar                  |Clumps                        |clumps                        |9.0.0+14            |DONE      |Manifest: NOSIGNATURE
+		journeymap-1.19.2-5.9.8-forge.jar                 |Journeymap                    |journeymap                    |5.9.8               |DONE      |Manifest: NOSIGNATURE
+		travelersbackpack-forge-1.19.2-8.2.41.jar         |Traveler's Backpack           |travelersbackpack             |8.2.41              |DONE      |Manifest: NOSIGNATURE
+		BetterTotemOfUndying-Forge-1.19.2-1.1.0.jar       |Better Totem Of Undying       |better_totem_of_undying       |1.19.2-1.1.0        |DONE      |Manifest: NOSIGNATURE
+		snuffles-1.0.5.jar                                |Snuffles                      |snuffles                      |1.0.5               |DONE      |Manifest: NOSIGNATURE
+		YungsBetterDesertTemples-1.19.2-Forge-2.2.2.jar   |YUNG's Better Desert Temples  |betterdeserttemples           |1.19.2-Forge-2.2.2  |DONE      |Manifest: NOSIGNATURE
+		fusion-1.1.1-forge-mc1.19.2.jar                   |Fusion                        |fusion                        |1.1.1               |DONE      |Manifest: NOSIGNATURE
+		blueprint-1.19.2-6.2.0.jar                        |Blueprint                     |blueprint                     |6.2.0               |DONE      |Manifest: NOSIGNATURE
+		forge-1.19.2-43.4.2-universal.jar                 |Forge                         |forge                         |43.4.2              |DONE      |Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90
+		DungeonsArise-1.19.2-2.1.56-beta.jar              |When Dungeons Arise           |dungeons_arise                |2.1.56-1.19.2       |DONE      |Manifest: NOSIGNATURE
+		server-1.19.2-20220805.130853-srg.jar             |Minecraft                     |minecraft                     |1.19.2              |DONE      |Manifest: NOSIGNATURE
+		endergetic-1.19.2-4.0.0.jar                       |The Endergetic Expansion      |endergetic                    |4.0.0               |DONE      |Manifest: NOSIGNATURE
+		Skyfall 1.1.0-1.19.2.jar                          |Skyfall                       |skyfall                       |1.1.0               |DONE      |Manifest: NOSIGNATURE
+		EnchantmentDescriptions-Forge-1.19.2-13.0.14.jar  |EnchantmentDescriptions       |enchdesc                      |13.0.14             |DONE      |Manifest: eb:c4:b1:67:8b:f9:0c:db:dc:4f:01:b1:8e:61:64:39:4c:10:85:0b:a6:c4:c7:48:f0:fa:95:f2:cb:08:3a:e5
+		TerraBlender-forge-1.19.2-2.0.1.166.jar           |TerraBlender                  |terrablender                  |2.0.1.166           |DONE      |Manifest: NOSIGNATURE
+		BiomesOPlenty-1.19.2-17.1.2.544.jar               |Biomes O' Plenty              |biomesoplenty                 |17.1.2.544          |DONE      |Manifest: NOSIGNATURE
+		moonlight-1.19.2-2.3.7-forge.jar                  |Moonlight Library             |moonlight                     |1.19.2-2.3.7        |DONE      |Manifest: NOSIGNATURE
+		mysticaloaktree-1.19.2-1.10.jar                   |Mystical Oak Tree             |mysticaloaktree               |1.19.2-1.10         |DONE      |Manifest: NOSIGNATURE
+		MouseTweaks-forge-mc1.19-2.23.jar                 |Mouse Tweaks                  |mousetweaks                   |2.23                |DONE      |Manifest: NOSIGNATURE
+		The Newest Goatman.jar                            |goatman                       |goatman                       |1.7.0               |DONE      |Manifest: NOSIGNATURE
+		Jade-1.19.1-forge-8.9.2.jar                       |Jade                          |jade                          |8.9.2               |DONE      |Manifest: NOSIGNATURE
+		CreativeCore_FORGE_v2.11.28_mc1.19.2.jar          |CreativeCore                  |creativecore                  |2.11.28             |DONE      |Manifest: NOSIGNATURE
+		From-The-Fog-1.19-v1.9.1-Forge-Fabric.jar         |From The Fog                  |watching                      |1.9.1               |DONE      |Manifest: NOSIGNATURE
+		personality-1.19.2-3.0.2.jar                      |Personality                   |personality                   |3.0.2               |DONE      |Manifest: NOSIGNATURE
+		notenoughanimations-forge-1.8.1-mc1.19.2.jar      |NotEnoughAnimations           |notenoughanimations           |1.8.1               |DONE      |Manifest: NOSIGNATURE
+		spartanshields-1.19.2-3.0.1.jar                   |Spartan Shields               |spartanshields                |3.0.1               |DONE      |Manifest: NOSIGNATURE
+		gravestone-forge-1.19.2-1.0.24.jar                |Gravestone Mod                |gravestone                    |1.19.2-1.0.24       |DONE      |Manifest: NOSIGNATURE
+		[1.19.2] SecurityCraft v1.9.6.1.jar               |SecurityCraft                 |securitycraft                 |1.9.6.1             |DONE      |Manifest: NOSIGNATURE
+		labellingcontainers-1.7.0.jar                     |Labelling Containers          |labellingcontainers           |1.7.0               |DONE      |Manifest: NOSIGNATURE
+		DiagonalFences-v4.2.6-1.19.2-Forge.jar            |Diagonal Fences               |diagonalfences                |4.2.6               |DONE      |Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		inventoryhud.forge.1.19.2-3.4.26.jar              |Inventory HUD+                |inventoryhud                  |3.4.26              |DONE      |Manifest: NOSIGNATURE
+		coroutil-forge-1.19.2-1.3.6.jar                   |CoroUtil                      |coroutil                      |1.19.2-1.3.6        |DONE      |Manifest: NOSIGNATURE
+		endofherobrine-1.19.2-1.0.8.2.jar                 |The End of Herobrine          |endofherobrine                |1.19.2-1.0.8.2      |DONE      |Manifest: NOSIGNATURE
+		appleskin-forge-mc1.19-2.4.2.jar                  |AppleSkin                     |appleskin                     |2.4.2+mc1.19        |DONE      |Manifest: NOSIGNATURE
+		connectedglass-1.1.12-forge-mc1.19.2.jar          |Connected Glass               |connectedglass                |1.1.12              |DONE      |Manifest: NOSIGNATURE
+		reds-more-structures-1.0.7-common.jar             |Red’s More Structures         |reds_morestructures_mr        |1.0.7C              |DONE      |Manifest: NOSIGNATURE
+		PuzzlesLib-v4.4.3-1.19.2-Forge.jar                |Puzzles Lib                   |puzzleslib                    |4.4.3               |DONE      |Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		charmofundying-forge-6.2.1+1.19.2.jar             |Charm of Undying              |charmofundying                |6.2.1+1.19.2        |DONE      |Manifest: NOSIGNATURE
+		BetterF3-4.0.1-Forge-1.19.2.jar                   |BetterF3                      |betterf3                      |4.0.1               |DONE      |Manifest: NOSIGNATURE
+		CosmeticArmorReworked-1.19.2-v1a.jar              |CosmeticArmorReworked         |cosmeticarmorreworked         |1.19.2-v1a          |DONE      |Manifest: 5e:ed:25:99:e4:44:14:c0:dd:89:c1:a9:4c:10:b5:0d:e4:b1:52:50:45:82:13:d8:d0:32:89:67:56:57:01:53
+	Crash Report UUID: fcd1f958-ecc8-415b-b308-1fbd7193db84
+	FML: 43.4
+	Forge: net.minecraftforge:43.4.2
