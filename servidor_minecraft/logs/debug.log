@@ -6257,3 +6257,19 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [08Mar2025 22:44:40.479] [Server thread/DEBUG] [portb.transformerlib.TransformerLib/]: Transforming lain/mods/cos/impl/inventory/ContainerCosArmor$1 (target of net/minecraft/world/inventory/Slot)
 [08Mar2025 22:44:40.480] [Server thread/DEBUG] [portb.transformerlib.TransformerLib/]: Transforming lain/mods/cos/impl/inventory/ContainerCosArmor$2 (target of net/minecraft/world/inventory/Slot)
 [08Mar2025 22:44:40.480] [Server thread/DEBUG] [portb.transformerlib.TransformerLib/]: Transforming lain/mods/cos/impl/inventory/ContainerCosArmor$3 (target of net/minecraft/world/inventory/Slot)
+[08Mar2025 22:46:16.725] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save neroland
+[08Mar2025 22:46:16.738] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete neroland
+[08Mar2025 22:50:15.829] [Server thread/DEBUG] [portb.transformerlib.TransformerLib/]: Transforming ttv/migami/jeg/common/container/GunmetalWorkbenchContainer$1 (target of net/minecraft/world/inventory/Slot)
+[08Mar2025 22:50:19.759] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_one_who_watches:toww_staring but it was marked as removed already
+[08Mar2025 22:50:21.322] [Server thread/DEBUG] [portb.transformerlib.TransformerLib/]: Transforming ttv/migami/jeg/common/container/ScrapWorkbenchContainer$1 (target of net/minecraft/world/inventory/Slot)
+[08Mar2025 22:50:22.974] [Server thread/DEBUG] [portb.transformerlib.TransformerLib/]: Transforming ttv/migami/jeg/common/container/GunniteWorkbenchContainer$1 (target of net/minecraft/world/inventory/Slot)
+[08Mar2025 22:51:16.743] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save neroland
+[08Mar2025 22:51:16.756] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete neroland
+[08Mar2025 22:52:32.780] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jesus4448 has made the advancement [Neighborhood Brawl]
+[08Mar2025 22:53:27.810] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_one_who_watches:toww_staring but it was marked as removed already
+[08Mar2025 22:53:43.099] [Server thread/WARN] [jeg/]: literal{Jesus4448}(54a05021-f921-41e6-abe9-63ca6d7d0697) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 99
+[08Mar2025 22:53:43.100] [Server thread/WARN] [jeg/]: literal{Jesus4448}(54a05021-f921-41e6-abe9-63ca6d7d0697) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 98
+[08Mar2025 22:53:45.056] [Server thread/WARN] [jeg/]: literal{Jesus4448}(54a05021-f921-41e6-abe9-63ca6d7d0697) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 98
+[08Mar2025 22:53:45.056] [Server thread/WARN] [jeg/]: literal{Jesus4448}(54a05021-f921-41e6-abe9-63ca6d7d0697) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 97
+[08Mar2025 22:54:22.364] [Server thread/WARN] [jeg/]: literal{Jesus4448}(54a05021-f921-41e6-abe9-63ca6d7d0697) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 100
+[08Mar2025 22:54:22.365] [Server thread/WARN] [jeg/]: literal{Jesus4448}(54a05021-f921-41e6-abe9-63ca6d7d0697) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 99

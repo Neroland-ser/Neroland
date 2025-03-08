@@ -484,3 +484,12 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [08Mar2025 22:40:40.813] [Server thread/WARN] [jeg/]: literal{Roxanne711}(d7c14572-72c4-477b-9382-c6cf1b253e04) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 149
 [08Mar2025 22:40:40.880] [Server thread/WARN] [jeg/]: literal{Roxanne711}(d7c14572-72c4-477b-9382-c6cf1b253e04) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 82
 [08Mar2025 22:40:41.812] [Server thread/WARN] [jeg/]: literal{Roxanne711}(d7c14572-72c4-477b-9382-c6cf1b253e04) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 149
+[08Mar2025 22:50:19.759] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_one_who_watches:toww_staring but it was marked as removed already
+[08Mar2025 22:52:32.780] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jesus4448 has made the advancement [Neighborhood Brawl]
+[08Mar2025 22:53:27.810] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity the_one_who_watches:toww_staring but it was marked as removed already
+[08Mar2025 22:53:43.099] [Server thread/WARN] [jeg/]: literal{Jesus4448}(54a05021-f921-41e6-abe9-63ca6d7d0697) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 99
+[08Mar2025 22:53:43.100] [Server thread/WARN] [jeg/]: literal{Jesus4448}(54a05021-f921-41e6-abe9-63ca6d7d0697) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 98
+[08Mar2025 22:53:45.056] [Server thread/WARN] [jeg/]: literal{Jesus4448}(54a05021-f921-41e6-abe9-63ca6d7d0697) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 98
+[08Mar2025 22:53:45.056] [Server thread/WARN] [jeg/]: literal{Jesus4448}(54a05021-f921-41e6-abe9-63ca6d7d0697) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 97
+[08Mar2025 22:54:22.364] [Server thread/WARN] [jeg/]: literal{Jesus4448}(54a05021-f921-41e6-abe9-63ca6d7d0697) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 100
+[08Mar2025 22:54:22.365] [Server thread/WARN] [jeg/]: literal{Jesus4448}(54a05021-f921-41e6-abe9-63ca6d7d0697) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 99
