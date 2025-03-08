@@ -827,6 +827,12 @@
     },
     "done": true
   },
+  "tombstone:adventure/neighborhood_brawl": {
+    "criteria": {
+      "coded_trigger": "2025-03-08 22:52:32 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/raw_copper_block": {
     "criteria": {
       "has_raw_copper": "2024-12-04 04:01:00 +0000"
@@ -1034,6 +1040,12 @@
   "spartanweaponry:recipes/spartanweaponry.basic/diamond_pike": {
     "criteria": {
       "has_diamond": "2024-12-04 03:37:33 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/travelersbackpack/end": {
+    "criteria": {
+      "has_ender_eye": "2025-03-08 23:01:09 +0000"
     },
     "done": true
   },
@@ -1570,6 +1582,12 @@
   "spartanweaponry:recipes/spartanweaponry.arrows_bolts/copper_arrow": {
     "criteria": {
       "has_feather": "2024-12-04 03:42:30 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/protecto": {
+    "criteria": {
+      "has_ender_eye": "2025-03-08 23:01:09 +0000"
     },
     "done": true
   },
@@ -2257,6 +2275,12 @@
   "minecraft:story/enter_the_nether": {
     "criteria": {
       "entered_nether": "2024-12-10 04:02:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2025-03-08 23:01:09 +0000"
     },
     "done": true
   },
@@ -5319,6 +5343,12 @@
   "minecraft:recipes/decorations/white_carpet": {
     "criteria": {
       "has_white_wool": "2024-12-02 02:59:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2025-03-08 23:01:09 +0000"
     },
     "done": true
   },

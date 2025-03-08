@@ -493,3 +493,29 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [08Mar2025 22:53:45.056] [Server thread/WARN] [jeg/]: literal{Jesus4448}(54a05021-f921-41e6-abe9-63ca6d7d0697) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 97
 [08Mar2025 22:54:22.364] [Server thread/WARN] [jeg/]: literal{Jesus4448}(54a05021-f921-41e6-abe9-63ca6d7d0697) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 100
 [08Mar2025 22:54:22.365] [Server thread/WARN] [jeg/]: literal{Jesus4448}(54a05021-f921-41e6-abe9-63ca6d7d0697) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 99
+[08Mar2025 22:57:22.908] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=-1700, y=63, z=477}
+[08Mar2025 22:58:09.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Jesus4448: Set own game mode to Survival Mode]
+[08Mar2025 22:58:38.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Jesus4448: Set own game mode to Creative Mode]
+[08Mar2025 22:59:39.268] [Server thread/WARN] [jeg/]: literal{Jesus4448}(54a05021-f921-41e6-abe9-63ca6d7d0697) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 99
+[08Mar2025 22:59:39.269] [Server thread/WARN] [jeg/]: literal{Jesus4448}(54a05021-f921-41e6-abe9-63ca6d7d0697) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 98
+[08Mar2025 22:59:39.286] [Server thread/WARN] [jeg/]: literal{Jesus4448}(54a05021-f921-41e6-abe9-63ca6d7d0697) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 81
+[08Mar2025 22:59:40.265] [Server thread/WARN] [jeg/]: literal{Jesus4448}(54a05021-f921-41e6-abe9-63ca6d7d0697) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 100
+[08Mar2025 22:59:40.266] [Server thread/WARN] [jeg/]: literal{Jesus4448}(54a05021-f921-41e6-abe9-63ca6d7d0697) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 99
+[08Mar2025 22:59:41.246] [Server thread/WARN] [jeg/]: literal{Jesus4448}(54a05021-f921-41e6-abe9-63ca6d7d0697) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 99
+[08Mar2025 22:59:41.246] [Server thread/WARN] [jeg/]: literal{Jesus4448}(54a05021-f921-41e6-abe9-63ca6d7d0697) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 98
+[08Mar2025 22:59:42.260] [Server thread/WARN] [jeg/]: literal{Jesus4448}(54a05021-f921-41e6-abe9-63ca6d7d0697) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 99
+[08Mar2025 22:59:42.261] [Server thread/WARN] [jeg/]: literal{Jesus4448}(54a05021-f921-41e6-abe9-63ca6d7d0697) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 98
+[08Mar2025 22:59:43.248] [Server thread/WARN] [jeg/]: literal{Jesus4448}(54a05021-f921-41e6-abe9-63ca6d7d0697) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 99
+[08Mar2025 22:59:43.249] [Server thread/WARN] [jeg/]: literal{Jesus4448}(54a05021-f921-41e6-abe9-63ca6d7d0697) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 98
+[08Mar2025 22:59:44.261] [Server thread/WARN] [jeg/]: literal{Jesus4448}(54a05021-f921-41e6-abe9-63ca6d7d0697) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 99
+[08Mar2025 22:59:44.262] [Server thread/WARN] [jeg/]: literal{Jesus4448}(54a05021-f921-41e6-abe9-63ca6d7d0697) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 98
+[08Mar2025 22:59:45.283] [Server thread/WARN] [jeg/]: literal{Jesus4448}(54a05021-f921-41e6-abe9-63ca6d7d0697) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 99
+[08Mar2025 22:59:45.284] [Server thread/WARN] [jeg/]: literal{Jesus4448}(54a05021-f921-41e6-abe9-63ca6d7d0697) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 98
+[08Mar2025 22:59:45.301] [Server thread/WARN] [jeg/]: literal{Jesus4448}(54a05021-f921-41e6-abe9-63ca6d7d0697) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 80
+[08Mar2025 22:59:49.583] [Server thread/WARN] [jeg/]: literal{Jesus4448}(54a05021-f921-41e6-abe9-63ca6d7d0697) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 99
+[08Mar2025 22:59:49.584] [Server thread/WARN] [jeg/]: literal{Jesus4448}(54a05021-f921-41e6-abe9-63ca6d7d0697) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 98
+[08Mar2025 22:59:50.578] [Server thread/WARN] [jeg/]: literal{Jesus4448}(54a05021-f921-41e6-abe9-63ca6d7d0697) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 99
+[08Mar2025 22:59:50.579] [Server thread/WARN] [jeg/]: literal{Jesus4448}(54a05021-f921-41e6-abe9-63ca6d7d0697) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 98
+[08Mar2025 23:03:40.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Jesus4448: Set own game mode to Adventure Mode]
+[08Mar2025 23:03:48.128] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Jesus4448: Set own game mode to Creative Mode]
+[08Mar2025 23:03:49.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Jesus4448: Set own game mode to Spectator Mode]
