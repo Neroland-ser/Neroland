@@ -3794,6 +3794,7 @@
       "minecraft:witch": "2024-12-02 03:03:50 +0000",
       "minecraft:piglin": "2024-12-17 03:38:18 +0000",
       "minecraft:enderman": "2024-12-04 03:10:16 +0000",
+      "minecraft:silverfish": "2025-03-08 23:47:33 +0000",
       "minecraft:zombie": "2024-12-02 03:44:58 +0000",
       "minecraft:drowned": "2024-12-04 03:16:05 +0000",
       "minecraft:zombie_villager": "2025-03-08 23:46:49 +0000"
@@ -3995,6 +3996,12 @@
   "spartanweaponry:recipes/spartanweaponry.basic/handle_from_wool": {
     "criteria": {
       "has_stick": "2024-12-04 01:45:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2025-03-08 23:50:15 +0000"
     },
     "done": true
   },
@@ -4971,6 +4978,7 @@
       "apple": "2024-12-02 02:48:53 +0000",
       "mutton": "2024-12-02 03:07:39 +0000",
       "bread": "2024-12-02 02:08:39 +0000",
+      "golden_apple": "2025-03-08 23:56:01 +0000",
       "rotten_flesh": "2024-12-02 03:45:27 +0000",
       "dried_kelp": "2024-12-02 04:01:19 +0000",
       "cooked_chicken": "2025-03-08 23:18:39 +0000",
@@ -6086,6 +6094,12 @@
   "minecraft:recipes/decorations/brown_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2024-12-02 04:00:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2025-03-08 23:50:15 +0000"
     },
     "done": true
   },
