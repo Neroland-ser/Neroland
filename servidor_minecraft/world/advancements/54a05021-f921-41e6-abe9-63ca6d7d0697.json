@@ -173,6 +173,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/popped_chorus_fruit": {
+    "criteria": {
+      "has_chorus_fruit": "2025-03-09 00:16:47 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/spartanweaponry.basic/copper_longsword": {
     "criteria": {
       "has_copper_ingot": "2024-12-04 04:02:25 +0000"
@@ -1103,6 +1109,12 @@
     },
     "done": true
   },
+  "alexsmobs:alexsmobs/enderiophage": {
+    "criteria": {
+      "killed_by": "2025-03-09 00:16:12 +0000"
+    },
+    "done": true
+  },
   "aether:recipes/tools/stone_shovel_repairing": {
     "criteria": {
       "has_stone_shovel": "2024-12-02 04:28:58 +0000"
@@ -1220,6 +1232,12 @@
   "minecraft:recipes/tools/golden_pickaxe": {
     "criteria": {
       "has_gold_ingot": "2024-12-17 03:25:10 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/orcas_might": {
+    "criteria": {
+      "all_effects": "2025-03-09 00:07:36 +0000"
     },
     "done": true
   },
@@ -1864,6 +1882,12 @@
   "minecraft:recipes/misc/bucket": {
     "criteria": {
       "has_iron_ingot": "2024-12-04 02:39:19 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/capsid": {
+    "criteria": {
+      "capsid": "2025-03-09 00:16:14 +0000"
     },
     "done": true
   },
@@ -2845,6 +2869,12 @@
   "minecraft:recipes/combat/leather_chestplate": {
     "criteria": {
       "has_leather": "2024-12-06 04:28:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2025-03-09 00:11:35 +0000"
     },
     "done": true
   },
