@@ -371,6 +371,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2025-03-08 23:59:40 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_leggings": {
     "criteria": {
       "has_leather": "2024-12-02 03:55:47 +0000"
@@ -596,6 +602,12 @@
   "aether:recipes/combat/iron_gloves": {
     "criteria": {
       "has_iron": "2024-12-02 02:54:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab": {
+    "criteria": {
+      "has_end_stone_bricks": "2025-03-08 23:59:40 +0000"
     },
     "done": true
   },
@@ -1337,6 +1349,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2025-03-08 23:59:40 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/spartanweaponry.basic/golden_glaive": {
     "criteria": {
       "has_gold_ingot": "2024-12-04 03:39:42 +0000"
@@ -1737,6 +1755,12 @@
   "tombstone:adventure/bone_crusher": {
     "criteria": {
       "coded_trigger": "2024-12-06 04:11:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2025-03-08 23:59:40 +0000"
     },
     "done": true
   },
@@ -2603,6 +2627,12 @@
     },
     "done": true
   },
+  "spartanshields:recipes/spartanshields/obsidian_basic_shield": {
+    "criteria": {
+      "has_obsidian": "2025-03-08 23:59:20 +0000"
+    },
+    "done": true
+  },
   "aether:recipes/tools/stone_pickaxe_repairing": {
     "criteria": {
       "has_stone_pickaxe": "2024-12-02 02:50:04 +0000"
@@ -2696,6 +2726,12 @@
   "twilightforest:recipes/twilightforest/wood/birch_banister": {
     "criteria": {
       "has_item": "2024-12-06 04:30:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2025-03-08 23:59:20 +0000"
     },
     "done": true
   },
@@ -3674,6 +3710,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs": {
+    "criteria": {
+      "has_end_stone_bricks": "2025-03-08 23:59:40 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/securitycraft/storage_module": {
     "criteria": {
       "has_iron": "2024-12-02 02:54:34 +0000"
@@ -4113,6 +4155,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/end_stone_brick_wall": {
+    "criteria": {
+      "has_end_stone_bricks": "2025-03-08 23:59:40 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/light_gray_banner": {
     "criteria": {
       "has_light_gray_wool": "2024-12-02 03:18:02 +0000"
@@ -4128,6 +4176,12 @@
   "spartanweaponry:dagger": {
     "criteria": {
       "has_dagger": "2024-12-06 03:50:41 +0000"
+    },
+    "done": true
+  },
+  "spartanshields:recipes/spartanshields/obsidian_tower_shield": {
+    "criteria": {
+      "has_obsidian": "2025-03-08 23:59:20 +0000"
     },
     "done": true
   },
@@ -5134,6 +5188,12 @@
   "spartanweaponry:recipes/spartanweaponry.basic/diamond_parrying_dagger": {
     "criteria": {
       "has_diamond": "2024-12-04 02:59:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2025-03-08 23:59:20 +0000"
     },
     "done": true
   },

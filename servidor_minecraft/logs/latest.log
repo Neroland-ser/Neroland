@@ -12,3 +12,83 @@
 [09Mar2025 00:01:10.286] [Server thread/INFO] [tombstone/]: The player Roxanne711 has successfully been saved
 [09Mar2025 00:01:10.329] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase HoldingPattern (#0) on the server
 [09Mar2025 00:01:12.379] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase StrafePlayer (#1) on the server
+[09Mar2025 00:01:20.225] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase ChargeUp (#11) on the server
+[09Mar2025 00:01:22.726] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase HoldingPattern (#0) on the server
+[09Mar2025 00:01:37.425] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase StrafePlayer (#1) on the server
+[09Mar2025 00:01:44.775] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase ChargeUp (#11) on the server
+[09Mar2025 00:01:47.276] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase CrashPlayer (#14) on the server
+[09Mar2025 00:01:55.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: playerrevive.chat.bleeding
+[09Mar2025 00:01:55.180] [Server thread/WARN] [tombstone/]: The death event of the player Roxanne711 was canceled by another mod
+[09Mar2025 00:01:55.191] [Server thread/INFO] [tombstone/]: The player Roxanne711 has successfully been saved
+[09Mar2025 00:01:56.278] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase HoldingPattern (#0) on the server
+[09Mar2025 00:01:59.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roxanne711 was doomed to fall by Ender Dragon
+[09Mar2025 00:01:59.494] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Roxanne711 with unique ID travelersbackpack.spider_09.03.2025-00.01.59.dat
+[09Mar2025 00:01:59.495] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: There's no space for backpack. Dropping backpack item at X: -54 Y: 39.0 Z: 53
+[09Mar2025 00:01:59.502] [Server thread/INFO] [tombstone/]: The player Roxanne711 has successfully been saved
+[09Mar2025 00:02:08.002] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id maidensmerrymaking:colored_chicken
+[09Mar2025 00:02:08.003] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id maidensmerrymaking:colored_chicken
+[09Mar2025 00:02:08.004] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id maidensmerrymaking:colored_chicken
+[09Mar2025 00:02:08.005] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id maidensmerrymaking:colored_chicken
+[09Mar2025 00:02:08.005] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id maidensmerrymaking:colored_chicken
+[09Mar2025 00:02:13.180] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase StrafePlayer (#1) on the server
+[09Mar2025 00:02:15.079] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase ChargeUp (#11) on the server
+[09Mar2025 00:02:17.579] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase SnatchPlayer (#12) on the server
+[09Mar2025 00:02:19.927] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase CarryPlayer (#13) on the server
+[09Mar2025 00:02:39.780] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase HoldingPattern (#0) on the server
+[09Mar2025 00:02:39.780] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase LandingApproach (#2) on the server
+[09Mar2025 00:02:41.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: playerrevive.chat.bleeding
+[09Mar2025 00:02:41.393] [Server thread/WARN] [tombstone/]: The death event of the player Roxanne711 was canceled by another mod
+[09Mar2025 00:02:41.394] [Server thread/INFO] [tombstone/]: The player Roxanne711 has successfully been saved
+[09Mar2025 00:02:55.479] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase Landing (#3) on the server
+[09Mar2025 00:03:04.781] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase SittingScanning (#6) on the server
+[09Mar2025 00:03:09.730] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase Takeoff (#4) on the server
+[09Mar2025 00:03:10.631] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase HoldingPattern (#0) on the server
+[09Mar2025 00:03:11.448] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase StrafePlayer (#1) on the server
+[09Mar2025 00:03:13.429] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase ChargeUp (#11) on the server
+[09Mar2025 00:03:15.929] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase HoldingPattern (#0) on the server
+[09Mar2025 00:03:21.527] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase StrafePlayer (#1) on the server
+[09Mar2025 00:03:27.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: playerrevive.chat.bleeding
+[09Mar2025 00:03:27.433] [Server thread/WARN] [tombstone/]: The death event of the player Roxanne711 was canceled by another mod
+[09Mar2025 00:03:27.437] [Server thread/INFO] [tombstone/]: The player Roxanne711 has successfully been saved
+[09Mar2025 00:03:30.179] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase ChargeUp (#11) on the server
+[09Mar2025 00:03:32.681] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase HoldingPattern (#0) on the server
+[09Mar2025 00:03:33.928] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase StrafePlayer (#1) on the server
+[09Mar2025 00:03:35.828] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase ChargeUp (#11) on the server
+[09Mar2025 00:03:38.330] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase HoldingPattern (#0) on the server
+[09Mar2025 00:03:41.528] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase StrafePlayer (#1) on the server
+[09Mar2025 00:03:42.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: playerrevive.chat.bleeding
+[09Mar2025 00:03:42.333] [Server thread/WARN] [tombstone/]: The death event of the player Jesus4448 was canceled by another mod
+[09Mar2025 00:03:42.348] [Server thread/INFO] [tombstone/]: The player Jesus4448 has successfully been saved
+[09Mar2025 00:03:51.879] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase ChargeUp (#11) on the server
+[09Mar2025 00:03:54.378] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase HoldingPattern (#0) on the server
+[09Mar2025 00:04:15.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roxanne711 was killed by Ender Dragon using magic
+[09Mar2025 00:04:33.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Roxanne711: Teleported Roxanne711 to Jesus4448]
+[09Mar2025 00:04:40.026] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase StrafePlayer (#1) on the server
+[09Mar2025 00:04:41.327] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase ChargeUp (#11) on the server
+[09Mar2025 00:04:43.828] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase DiveBombPlayer (#15) on the server
+[09Mar2025 00:04:50.278] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase HoldingPattern (#0) on the server
+[09Mar2025 00:04:50.278] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase LandingApproach (#2) on the server
+[09Mar2025 00:04:54.077] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase Landing (#3) on the server
+[09Mar2025 00:04:59.078] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase SittingScanning (#6) on the server
+[09Mar2025 00:05:04.032] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase Takeoff (#4) on the server
+[09Mar2025 00:05:04.032] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase ChargingPlayer (#8) on the server
+[09Mar2025 00:05:23.129] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase HoldingPattern (#0) on the server
+[09Mar2025 00:06:00.827] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase StrafePlayer (#1) on the server
+[09Mar2025 00:06:06.579] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase ChargeUp (#11) on the server
+[09Mar2025 00:06:09.079] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase SnatchPlayer (#12) on the server
+[09Mar2025 00:06:10.984] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase CarryPlayer (#13) on the server
+[09Mar2025 00:06:18.183] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase HoldingPattern (#0) on the server
+[09Mar2025 00:06:18.741] [Server thread/WARN] [jeg/]: literal{Jesus4448}(54a05021-f921-41e6-abe9-63ca6d7d0697) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 100
+[09Mar2025 00:06:28.528] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase StrafePlayer (#1) on the server
+[09Mar2025 00:06:29.378] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase ChargeUp (#11) on the server
+[09Mar2025 00:06:31.878] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase DiveBombPlayer (#15) on the server
+[09Mar2025 00:06:37.679] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase HoldingPattern (#0) on the server
+[09Mar2025 00:07:03.829] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase StrafePlayer (#1) on the server
+[09Mar2025 00:07:05.730] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase ChargeUp (#11) on the server
+[09Mar2025 00:07:08.230] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase SnatchPlayer (#12) on the server
+[09Mar2025 00:07:10.380] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase CarryPlayer (#13) on the server
+[09Mar2025 00:07:12.579] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roxanne711 has made the advancement [Free the End]
+[09Mar2025 00:07:12.580] [Server thread/INFO] [net.minecraft.world.entity.boss.enderdragon.phases.EnderDragonPhaseManager/]: Dragon is now in phase Dying (#9) on the server
+[09Mar2025 00:07:13.517] [Server thread/WARN] [jeg/]: literal{Jesus4448}(54a05021-f921-41e6-abe9-63ca6d7d0697) tried to fire before cooldown finished or server is lagging? Remaining milliseconds: 88
+[09Mar2025 00:07:28.077] [Server thread/INFO] [betterendisland/]: Set the exit portal location to: BlockPos{x=0, y=57, z=0}
+[09Mar2025 00:07:36.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jesus4448 has completed the challenge [Free Willy]
