@@ -3810,6 +3810,12 @@
     },
     "done": true
   },
+  "endergetic:poise_forest": {
+    "criteria": {
+      "in_poise_forest": "2025-03-11 02:03:03 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/root": {
     "criteria": {
       "killed_something": "2024-12-02 02:59:02 +0000"
