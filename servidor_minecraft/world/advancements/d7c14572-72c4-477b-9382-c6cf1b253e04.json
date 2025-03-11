@@ -1211,6 +1211,12 @@
     },
     "done": true
   },
+  "alexsmobs:alexsmobs/orcas_might": {
+    "criteria": {
+      "all_effects": "2025-03-09 00:25:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/sticky_piston": {
     "criteria": {
       "has_slime_ball": "2024-12-02 03:15:41 +0000"
@@ -1376,6 +1382,12 @@
   "dungeons_arise:wda_root": {
     "criteria": {
       "WDA": "2024-12-02 02:09:03 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:heavy_crossbow": {
+    "criteria": {
+      "has_heavy_crossbow": "2025-03-09 00:19:27 +0000"
     },
     "done": true
   },
@@ -1746,6 +1758,12 @@
     },
     "done": true
   },
+  "spartanweaponry:recipes/spartanweaponry.arrows_bolts/netherite_bolt": {
+    "criteria": {
+      "has_heavy_crossbow": "2025-03-09 00:19:27 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/securitycraft/reinforced_blue_stained_glass_pane_from_dye": {
     "criteria": {
       "has_glass": "2024-12-02 04:33:46 +0000"
@@ -2108,6 +2126,12 @@
   "minecraft:recipes/building_blocks/cobbled_deepslate_stairs": {
     "criteria": {
       "has_cobbled_deepslate": "2024-12-04 02:57:46 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:scythe": {
+    "criteria": {
+      "has_scythe": "2025-03-09 00:20:07 +0000"
     },
     "done": true
   },
@@ -2738,6 +2762,12 @@
   "minecraft:story/form_obsidian": {
     "criteria": {
       "obsidian": "2025-03-08 23:59:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2025-03-09 00:17:18 +0000"
     },
     "done": true
   },
@@ -3704,6 +3734,12 @@
     },
     "done": true
   },
+  "endergetic:poise_forest": {
+    "criteria": {
+      "in_poise_forest": "2025-03-09 00:35:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/root": {
     "criteria": {
       "killed_something": "2024-12-02 02:28:58 +0000"
@@ -3782,6 +3818,7 @@
       "minecraft:phantom": "2024-12-06 03:19:48 +0000",
       "minecraft:zombified_piglin": "2024-12-17 03:27:04 +0000",
       "minecraft:ender_dragon": "2025-03-09 00:07:12 +0000",
+      "minecraft:shulker": "2025-03-09 00:17:19 +0000",
       "minecraft:piglin": "2024-12-17 03:41:57 +0000",
       "minecraft:enderman": "2024-12-04 02:38:13 +0000",
       "minecraft:silverfish": "2025-03-08 23:47:39 +0000",
@@ -5804,6 +5841,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/shulker_box": {
+    "criteria": {
+      "has_shulker_shell": "2025-03-09 00:22:30 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_basalt": {
     "criteria": {
       "has_basalt": "2024-12-17 03:36:01 +0000"
@@ -5927,6 +5970,12 @@
   "twilightforest:recipes/twilightforest/magic_map_focus": {
     "criteria": {
       "has_berries": "2024-12-18 04:38:37 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:boomerang": {
+    "criteria": {
+      "has_boomerang": "2025-03-09 00:21:34 +0000"
     },
     "done": true
   },
