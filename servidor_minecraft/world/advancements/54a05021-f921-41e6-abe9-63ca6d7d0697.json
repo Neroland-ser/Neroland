@@ -2248,6 +2248,12 @@
     },
     "done": true
   },
+  "travelersbackpack:recipes/travelersbackpack/cake_smithing": {
+    "criteria": {
+      "has_cake": "2025-03-11 02:45:58 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/dark_oak_wood": {
     "criteria": {
       "has_log": "2024-12-02 02:45:06 +0000"
