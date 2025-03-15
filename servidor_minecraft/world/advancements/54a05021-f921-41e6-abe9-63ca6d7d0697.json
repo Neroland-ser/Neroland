@@ -1127,6 +1127,12 @@
     },
     "done": true
   },
+  "tombstone:adventure/stolen_magic": {
+    "criteria": {
+      "coded_trigger": "2025-03-11 04:48:27 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_chestplate": {
     "criteria": {
       "has_iron_ingot": "2024-12-04 02:39:20 +0000"
@@ -3891,7 +3897,10 @@
   "endofherobrine:story/exorcist": {
     "criteria": {
       "endofherobrine:chicken": "2025-02-12 04:30:15 +0000",
-      "endofherobrine:sheep": "2025-02-12 04:31:13 +0000"
+      "endofherobrine:silverfish": "2025-03-11 04:32:29 +0000",
+      "endofherobrine:pig": "2025-03-11 04:51:33 +0000",
+      "endofherobrine:sheep": "2025-02-12 04:31:13 +0000",
+      "endofherobrine:cow": "2025-03-11 04:35:36 +0000"
     },
     "done": false
   },

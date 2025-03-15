@@ -1,7 +1,7 @@
 
 ["Common configs for The End of Herobrine Mod"]
 	#Should enable experimental features?
-	experimental = false
+	experimental = true
 	#Should Herobrine build 1.7.10 structures?
 	legacyStructures = false
 	#Should Herobrine's Wrath progressively raise during gameplay?
@@ -23,10 +23,10 @@
 	#
 	#Time in ticks between Herobrine spawn attempts
 	#Range: > 0
-	spawnCooldown = 3600
+	spawnCooldown = 1
 	#Chance of a herobrine spawn attempt being successful
 	#Range: 0 ~ 100
-	spawnChance = 10
+	spawnChance = 1
 	#Should spawn herobrine builder?
 	spawnBuilder = true
 

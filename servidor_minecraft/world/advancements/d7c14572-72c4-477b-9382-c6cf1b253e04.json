@@ -311,6 +311,12 @@
     },
     "done": true
   },
+  "endofherobrine:story/battle": {
+    "criteria": {
+      "endofherobrine:herobrine": "2025-03-11 04:25:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/coarse_dirt": {
     "criteria": {
       "has_gravel": "2024-12-02 04:18:18 +0000"
@@ -3800,6 +3806,12 @@
     },
     "done": true
   },
+  "securitycraft:recipes/securitycraft/crystal_quartz_item": {
+    "criteria": {
+      "has_prismarine_crystals": "2025-03-11 04:35:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_andesite_slab_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2024-12-02 04:15:47 +0000"
@@ -3886,8 +3898,12 @@
   },
   "endofherobrine:story/exorcist": {
     "criteria": {
+      "endofherobrine:chicken": "2025-03-11 04:31:26 +0000",
+      "endofherobrine:silverfish": "2025-03-11 04:47:15 +0000",
+      "endofherobrine:pig": "2025-03-11 04:53:00 +0000",
       "endofherobrine:sheep": "2025-02-12 04:31:49 +0000",
-      "endofherobrine:cow": "2025-02-12 04:30:58 +0000"
+      "endofherobrine:cow": "2025-02-12 04:30:58 +0000",
+      "endofherobrine:pigman": "2025-03-11 04:51:13 +0000"
     },
     "done": false
   },
@@ -4361,6 +4377,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/sea_lantern": {
+    "criteria": {
+      "has_prismarine_crystals": "2025-03-11 04:35:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/black_banner": {
     "criteria": {
       "has_black_wool": "2024-12-02 03:18:02 +0000"
@@ -4746,6 +4768,12 @@
     },
     "done": true
   },
+  "endofherobrine:recipes/building_blocks/blackstone_totem": {
+    "criteria": {
+      "tough_fighter": "2025-03-11 04:25:52 +0000"
+    },
+    "done": true
+  },
   "spartanweaponry:recipes/spartanweaponry.basic/wooden_tomahawk": {
     "criteria": {
       "has_wood": "2024-12-04 02:03:19 +0000"
@@ -5072,6 +5100,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2025-03-11 04:55:06 +0000",
       "cooked_mutton": "2024-12-02 03:02:37 +0000",
       "cooked_beef": "2024-12-02 04:01:59 +0000",
       "apple": "2024-12-02 03:17:20 +0000",
